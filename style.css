@@ -118,6 +118,18 @@ header {
     color: #0bd;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.clear {
+  clear: left;
+}
+
 /* HOME
 ------------------------------- */
 #home {
