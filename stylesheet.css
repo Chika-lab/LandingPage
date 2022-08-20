@@ -93,6 +93,10 @@ header {
   float: left;
 }
 
+.header-center {
+  float: center;
+}
+
 .header-right {
   float: right;
   margin-right: -25px;
