@@ -94,7 +94,9 @@ header {
 }
 
 .header-center {
-  float: center;
+  /*float: center;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-right {
