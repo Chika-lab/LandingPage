@@ -75,7 +75,7 @@ body {
     margin: 0px auto;
 }
 #mainbg {
-    background: url(img/mainbk.jpg) no-repeat scroll 50%;
+    background: url(mainbk.jpg) no-repeat scroll 50%;
 }
 #main {
     max-width: 1000px;
@@ -97,11 +97,11 @@ body {
     /* Permalink - use to edit and share this gradient: http: //colorzilla.com/gradient-editor/#00a400+0,00a400+39,00a400+39,03c303+39,03c303+100 */
 background: #ffcbaf;
     /* Old browsers */
-background: url(img/annotation01.png) no-repeat 98% 1.5%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 42%, #eb5505 42%, #FFFFFF 42%, #FFFFFF 100%);
+background: url(annotation01.png) no-repeat 98% 1.5%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 42%, #eb5505 42%, #FFFFFF 42%, #FFFFFF 100%);
     /* FF3.6-15 */
-background: url(img/annotation01.png) no-repeat 98% 1.5%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+background: url(annotation01.png) no-repeat 98% 1.5%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
     /* Chrome10-25,Safari5.1-6 */
-background: url(img/annotation01.png) no-repeat 98% 1.5%, linear-gradient(to right, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+background: url(annotation01.png) no-repeat 98% 1.5%, linear-gradient(to right, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
     /* IE6-9 */
@@ -125,11 +125,11 @@ border: solid 2px #ffba95;
     /* Permalink - use to edit and share this gradient: http: //colorzilla.com/gradient-editor/#00a400+0,00a400+39,00a400+39,03c303+39,03c303+100 */
 background: #ffcbaf;
     /* Old browsers */
-background: url(img/annotation02.png) no-repeat 98% 1.5%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 45%, #eb5505 45%, #FFFFFF 45%, #FFFFFF 100%);
+background: url(annotation02.png) no-repeat 98% 1.5%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 45%, #eb5505 45%, #FFFFFF 45%, #FFFFFF 100%);
     /* FF3.6-15 */
-background: url(img/annotation02.png) no-repeat 98% 1.5%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+background: url(annotation02.png) no-repeat 98% 1.5%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
     /* Chrome10-25,Safari5.1-6 */
-background: url(img/annotation02.png) no-repeat 98% 1.5%, linear-gradient(to right, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+background: url(annotation02.png) no-repeat 98% 1.5%, linear-gradient(to right, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
     /* IE6-9 */
@@ -179,7 +179,7 @@ border: solid 2px #ffba95;
     /* 画像の高さを指定 */
 position: relative;
     background: #330000;
-    background: url(img/loop.png) repeat-x;
+    background: url(loop.png) repeat-x;
     background-size: auto 21%;
     animation: bg-slider 101s linear infinite;
     /* 23sの部分背景画像の約数だとスムーズ */
@@ -257,7 +257,7 @@ h1 {
     padding-bottom: 4.5%;
 }
 #bgqa {
-    background: url(img/qabk.jpg) 0% 7%;
+    background: url(qabk.jpg) 0% 7%;
 }
 .box01 {
     padding: 2% 0 2% 0;
@@ -426,12 +426,12 @@ font-size: 29px;
 .margin05 {
     width: 320px;
     margin-left: 2%;
-    background: url(img/arrow01.jpg) 100% 35% no-repeat;
+    background: url(arrow01.jpg) 100% 35% no-repeat;
 }
 .margin06 {
     width: 320px;
     margin-left: 2%;
-    background: url(img/arrow01.jpg) 100% 35% no-repeat;
+    background: url(arrow01.jpg) 100% 35% no-repeat;
 }
 .margin07 {
     width: 345px;
@@ -477,7 +477,7 @@ font-size: 29px;
     width: 412px;
     margin-left: 0.5%;
     padding-right: 13%;
-    background: url(img/or.jpg) 100% 45% no-repeat;
+    background: url(or.jpg) 100% 45% no-repeat;
 }
 .margin09 {
     width: 412px;
@@ -537,7 +537,7 @@ dt,dd {
     background: none no-repeat left top;
 }
 dd {
-    background: url(img/answer.jpg) no-repeat;
+    background: url(answer.jpg) no-repeat;
     background-position: 0 5px;
     overflow: hidden;
     font-size: 15px;
@@ -546,7 +546,7 @@ dd {
     margin-left: 2%;
 }
 dt {
-    background: url(img/question.jpg) no-repeat;
+    background: url(question.jpg) no-repeat;
     font-size: 28px;
     font-weight: bold;
     color: #eb5505;
@@ -623,7 +623,7 @@ color: #eb5505;
     vertical-align: middle;
 }
 .ver4 {
-    background: url(img/lp_17.png), #ffea44;
+    background: url(lp_17.png), #ffea44;
     background-repeat: no-repeat;
     background-position: 77%;
 }
@@ -644,7 +644,7 @@ color: #eb5505;
     margin: 0 auto;
 }
 .box07text01 {
-    background: url(img/icon.jpg) no-repeat;
+    background: url(icon.jpg) no-repeat;
     background-position: 49% 0;
     font-size: 33.4px;
     line-height: 150%;
@@ -795,7 +795,7 @@ color: #eb5505;
     margin-bottom: 3%;
 }
 .ver4 {
-    background: url(img/lp_17.png), #ffea44;
+    background: url(lp_17.png), #ffea44;
     background-repeat: no-repeat;
     background-position: 97% 0%;
 }
@@ -815,7 +815,7 @@ color: #eb5505;
     margin-left: 2%;
 }
 .box07text01 {
-    background: url(img/icon.jpg) no-repeat;
+    background: url(icon.jpg) no-repeat;
     background-position: 49% 0;
     background-size: 100%;
     font-size: 2.8vw;
@@ -927,11 +927,11 @@ p {
     /* Firefox用 */
 background: #ffcbaf;
     /* Old browsers */
-background: url(img/annotation01_sp.png) no-repeat 98% 7%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 42%, #eb5505 42%, #FFFFFF 42%, #FFFFFF 100%);
+background: url(annotation01_sp.png) no-repeat 98% 7%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 42%, #eb5505 42%, #FFFFFF 42%, #FFFFFF 100%);
     /* FF3.6-15 */
-background: url(img/annotation01_sp.png) no-repeat 98% 7%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+background: url(annotation01_sp.png) no-repeat 98% 7%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
     /* Chrome10-25,Safari5.1-6 */
-background: url(img/annotation01_sp.png) no-repeat 98% 7%, linear-gradient(to right, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+background: url(annotation01_sp.png) no-repeat 98% 7%, linear-gradient(to right, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
     /* IE6-9 */
@@ -953,11 +953,11 @@ filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', end
     /* Firefox用 */
 background: #ffcbaf;
     /* Old browsers */
-background: url(img/annotation02_sp.png) no-repeat 98% 7%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 45%, #eb5505 45%, #FFFFFF 45%, #FFFFFF 100%);
+background: url(annotation02_sp.png) no-repeat 98% 7%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 45%, #eb5505 45%, #FFFFFF 45%, #FFFFFF 100%);
     /* FF3.6-15 */
-background: url(img/annotation02_sp.png) no-repeat 98% 7%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+background: url(annotation02_sp.png) no-repeat 98% 7%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
     /* Chrome10-25,Safari5.1-6 */
-background: url(img/annotation02_sp.png) no-repeat 98% 7%, linear-gradient(to right, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+background: url(annotation02_sp.png) no-repeat 98% 7%, linear-gradient(to right, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
     /* IE6-9 */
@@ -1161,7 +1161,7 @@ filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', end
     height: auto;
     /* 画像の高さを指定 */
 position: relative;
-    background: url(img/loop.png) repeat-x 0 0;
+    background: url(loop.png) repeat-x 0 0;
     background-size: auto 17%;
     animation: bg-slider 201s linear infinite;
     /* 23sの部分背景画像の約数だとスムーズ */
@@ -1332,7 +1332,7 @@ margin: 0 0;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 1%;
-    background: url(img/arrow02.jpg) 50% 95% no-repeat;
+    background: url(arrow02.jpg) 50% 95% no-repeat;
     background-size: 10%;
 }
 .margin06 {
@@ -1340,7 +1340,7 @@ margin: 0 0;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 2%;
-    background: url(img/arrow02.jpg) 50% 95% no-repeat;
+    background: url(arrow02.jpg) 50% 95% no-repeat;
     background-size: 10%;
 }
 .margin07 {
@@ -1379,7 +1379,7 @@ margin: 0 0;
     width: 88%;
     margin: 0 auto;
     padding-bottom: 15%;
-    background: url(img/or.jpg) 50% 95% no-repeat;
+    background: url(or.jpg) 50% 95% no-repeat;
     background-size: 20%;
     padding-right: 0;
 }
@@ -1466,7 +1466,7 @@ dt {
     padding-bottom: 2.5%;
 }
 #bgqa {
-    background: url(img/qabk.jpg) 0% 3%;
+    background: url(qabk.jpg) 0% 3%;
     background-size: 80%;
 }
  #box06 {
@@ -1532,7 +1532,7 @@ color: #eb5505;
     vertical-align: text-top;
 }
 .ver4 {
-    background: url(img/lp_17.png), #ffea44;
+    background: url(lp_17.png), #ffea44;
     background-repeat: no-repeat;
     background-position: 100% -20%;
     background-size: 18%;
@@ -1608,7 +1608,7 @@ color: #eb5505;
     width: 75%;
     float: none;
     margin: 0 auto;
-    background: url(img/icon.jpg) no-repeat;
+    background: url(icon.jpg) no-repeat;
     background-position: 49% 50%;
     background-size: 75%;
 }
@@ -1616,7 +1616,7 @@ color: #eb5505;
     width: 75%;
     float: none;
     margin: 0 auto;
-    background: url(img/icon.jpg) no-repeat;
+    background: url(icon.jpg) no-repeat;
     background-position: 49% 50%;
     background-size: 75%;
 }
@@ -1624,7 +1624,7 @@ color: #eb5505;
     width: 75%;
     float: none;
     margin: 0 auto;
-    background: url(img/icon.jpg) no-repeat;
+    background: url(icon.jpg) no-repeat;
     background-position: 49% 50%;
     background-size: 75%;
 }
