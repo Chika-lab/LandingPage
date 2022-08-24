@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174970114-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-174970114-2')
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="keywords" content="auPAY,スマホ決済,店舗,導入無料,QRコード" />
+    <meta
+      name="description"
+      content="auPAY かんたん、安心！必要なのはQRコードだけ。かんたんに導入できます。初期費用 決済手数料 入金手数料ぜーんぶ、0円！"
+    />
+    <title>auPAY 店舗オーナーの皆さま 今なら、スマホ決済 導入費用が０円です。</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" href="icons/aupaylogo.png" />
+    <link rel="apple-touch-icon" href="icons/aupaylogo.png" />
+
+    <!-- Google Tag Manager -->
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-MFM5L53')
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script src="//statics.a8.net/a8sales/a8sales.js"></script>
+    <script src="//statics.a8.net/a8sales/a8crossDomain.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript" charset="UTF-8"></script>
+    <!--SPフッター固定パーツ設定ここから-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        var link01 = $('.link01')
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 2500) {
+            link01.fadeIn()
+          } else {
+            link01.fadeOut()
+          }
+        })
+      })
+    </script>
+    <!--SPフッター固定パーツ設定ここまで-->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MFM5L53"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="wrap">
+      <!--ヘッダー ここから-->
+      <div id="bgheader">
+        <div id="header">
+          <nav>
+            <ul class="main-nav">
+              <li id="logo">
+                <a href="index.html"><img src="img/logo.jpg" alt="au PAY" /></a>
+              </li>
+              <li id="menu">
+                <div class="pc">
+                  <div class="navi">
+                    ｜<a href="#reason">au PAYが選ばれる理由</a>｜<a href="#voice">導入店舗さまの声</a>｜<a href="#flow"
+                      >導入の流れ</a
+                    >｜
+                  </div>
+                </div>
+              </li>
+              <li id="headbtn">
+                <a href="./entry/" target="_blank"><img src="img/btn02.jpg" class="pc" alt="無料でお店に導入する" /></a>
+              </li>
+            </ul>
+            <div class="header_sp">
+              <div class="header_top">
+                <div class="container">
+                  <li class="sp" id="spmenu">
+                    <div class="header_top-right">
+                      <button type="button" class="navbar-toggle">
+                        <span class="sr-only"></span> <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span> <span class="icon-bar bar3"></span>
+                      </button>
+                    </div>
+                    <ul class="header-dropdown">
+                      <li><a href="#reason">au PAYが選ばれる理由</a></li>
+                      <li><a href="#voice">導入店舗さまの声</a></li>
+                      <li><a href="#flow">導入の流れ</a></li>
+                    </ul>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!--ヘッダー ここまで-->
+
+      <!--メイン ここから-->
+      <div id="mainbg">
+        <div class="bg-image-loop">
+          <div id="main">
+            <h1>
+              <img
+                src="img/lp_01.png"
+                class="pc"
+                alt="auPAY 店舗オーナーの皆さま 今なら、導入費用が０円です。当サイトからのお申込みは入力もかんたん！"
+              /><img
+                src="img/lp_01_sp.png"
+                class="sp"
+                alt="auPAY 店舗オーナーの皆さま 今なら、導入費用が０円です。当サイトからのお申込みは入力もかんたん！"
+              />
+            </h1>
+            <p id="maintext01">
+              <span class="white">会員数</span>&nbsp;&nbsp;&nbsp;&nbsp;1億人<span class="small03">&nbsp;突破</span>
+            </p>
+            <p id="maintext02">
+              <span class="white">加盟店数</span>&nbsp;&nbsp;&nbsp;&nbsp;190万店<span class="small03">&nbsp;突破</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--メイン ここまで-->
+
+      <!--お申し込み ここから-->
+      <div class="bg01">
+        <p class="btn01">
+          <a href="./entry/" target="_blank"><img src="img/btn01.jpg" alt="無料でお店に導入する" /></a>
+        </p>
+      </div>
+      <!--お申し込み ここまで-->
+
+      <!--auPAYが選ばれる理由 ここから-->
+      <h2 id="reason">
+        <img
+          src="img/lp_02.jpg"
+          class="pc"
+          alt="auPAYが選ばれる理由 かんたん、安心！必要なのはQRコードだけ。かんたんに導入できます。直接現金のやり取りがないのでコロナ対策としても安心な決済手段です。初期費用 決済手数料 入金手数料 ぜーんぶ、0円！"
+        /><img
+          src="img/lp_02_sp.jpg"
+          class="sp"
+          alt="auPAYが選ばれる理由 かんたん、安心！必要なのはQRコードだけ。かんたんに導入できます。直接現金のやり取りがないのでコロナ対策としても安心な決済手段です。初期費用 決済手数料 入金手数料 ぜーんぶ、0円！"
+        />
+      </h2>
+      <!--auPAYが選ばれる理由 ここまで-->
+
+      <!-- サービス満足度調査 ここから-->
+      <div id="bg02">
+        <h2>
+          <img
+            src="img/lp_03.jpg"
+            class="pc"
+            alt="auPAYは、サービス顧客満足度調査で総合満足度急上昇！※J.D.パワー2020年前期 QRコード・バーコード決済"
+          /><img
+            src="img/lp_03_sp.jpg"
+            class="sp"
+            alt="auPAYは、サービス顧客満足度調査で総合満足度急上昇！※J.D.パワー2020年前期 QRコード・バーコード決済"
+          />
+        </h2>
+      </div>
+      <div id="bg07">
+        <div id="box07">
+          <div class="float margin10">
+            <p class="box07text01">
+              会員数<br />
+              <span class="big02">1億</span>人<br />
+              <span class="small">突破</span>
+            </p>
+          </div>
+          <div class="float margin11">
+            <p class="box07text01">
+              加盟店数<br />
+              <span class="big03">190万</span>店<br />
+              <span class="small">突破</span>
+            </p>
+          </div>
+          <div class="float margin12">
+            <p class="box07text01 ver9">
+              年間ポイント<br />
+              付与額<br />
+              <span class="big04">2000億</span><span class="black">pt</span><br />
+              <span class="small02">突破</span>
+            </p>
+          </div>
+          <div style="clear: left"></div>
+        </div>
+      </div>
+      <!-- サービス満足度調査 ここまで-->
+
+      <!--お申し込み ここから-->
+      <p id="text01">＼au PAYを入れておけばよかった…となる前に！／</p>
+      <div class="bg01">
+        <p class="btn01">
+          <a href="./entry/" target="_blank"><img src="img/btn01.jpg" alt="" /></a>
+        </p>
+      </div>
+      <!--お申し込み ここまで-->
+
+      <!--導入店舗さまの声 ここから-->
+      <h2 class="title01" id="voice">au PAY「導入店舗さまの声」</h2>
+
+      <div id="box03">
+        <div class="float margin03">
+          <h3>Voice01</h3>
+          <p><img src="img/lp_05.jpg" alt="" /></p>
+          <p class="box03text01">スムーズにお会計が出来てとても便利！</p>
+          <p class="box03text02">
+            最近、キャッシュレス<br />
+            利用者が<span class="red">増えました！</span>
+          </p>
+          <p class="box03text03">
+            コロナウィルスの影響もあってか、キャッシュレス利用者が増えました。<span class="red">スムーズにお会計</span
+            >が出来てとても便利です。
+          </p>
+        </div>
+        <div class="float margin04">
+          <h3>Voice02</h3>
+          <p><img src="img/lp_06.jpg" alt="" /></p>
+          <p class="box03text01">中国料理 楼蘭（RORAN）東京 千代田区</p>
+          <p class="box03text02">
+            使い方も<span class="red">かんたん</span>で<br />
+            助かっています！
+          </p>
+          <p class="box03text03">
+            QRコードを店に置くだけでかんたんに使えるので、従業員などの教育も楽でした。使い方の下敷きもついているので助かりました。
+          </p>
+        </div>
+        <div style="clear: left"></div>
+        <div class="float margin03">
+          <h3>Voice03</h3>
+          <p><img src="img/lp_07.jpg" alt="" /></p>
+          <p class="box03text01">カラオケBAR.K 沖縄 那覇市</p>
+          <p class="box03text02">
+            <span class="red">新規</span>で来店される<br />
+            お客さまが<span class="red">増えました！</span>
+          </p>
+          <p class="box03text03">
+            <span class="red">アプリに店名が表示される</span
+            >ので、新規のお客さまも増えています。キャンペーンのおかげもあって、<span class="red">au PAY</span
+            >を使われるお客さまが<span class="red">多くなっている</span>印象です。
+          </p>
+        </div>
+        <div class="float margin04">
+          <h3>Voice04</h3>
+          <p><img src="img/lp_08.jpg" alt="" /></p>
+          <p class="box03text01">アトリエ やすおか　東京 千代田区</p>
+          <p class="box03text02">
+            <span class="red">無料で導入</span>できるので<br />
+            入れない理由がない！
+          </p>
+          <p class="box03text03">
+            au PAYは<span class="red">導入費用も無料</span>で、申し込んだら<span class="red">2週間程で使える</span
+            >ようになるのでとても良かったです。<span class="red">お試しで導入</span>してみることをおススメします！
+          </p>
+        </div>
+        <div style="clear: left"></div>
+      </div>
+      <!--導入店舗さまの声 ここまで-->
+
+      <!-- 導入の流れ ここから-->
+      <h2 class="title01 ver2" id="flow"><span class="big">導入の流れ</span></h2>
+      <p class="text02">かんたん<span class="yellow">3STEP</span>でご利用開始!</p>
+      <div id="box04">
+        <div class="float margin05">
+          <p><img src="img/lp_09.jpg" alt="STEP1" /></p>
+          <p class="box04text01">
+            ＼1分で仮申込み完了！／<br />
+            <span class="red">Webフォームからお申込み</span>
+          </p>
+          <p class="box04text02">
+            au PAY 加盟店規約に同意いただき、<br />
+            お申込みフォームに必要事項を<br />
+            ご記入ください。
+          </p>
+        </div>
+        <div class="float margin06">
+          <p><img src="img/lp_10.jpg" alt="STEP2" /></p>
+          <p class="box04text01">
+            ＼仮申込み後、すぐ！／<br />
+            <span class="red">お電話で本申込みをサポート</span>
+          </p>
+          <p class="box04text02">
+            登録のメールアドレス宛にメールが届きます。ご希望いただいたお時間にサポートセンターよりお電話します。
+          </p>
+        </div>
+        <div class="float margin07">
+          <p><img src="img/lp_11.jpg" alt="STEP3" /></p>
+          <p class="box04text01">
+            ＼置くだけかんたん！／<br />
+            <span class="red">届いた導入ツールで、ご利用開始</span>
+          </p>
+          <p class="box04text02">
+            au PAY導入ツールをお送りします。<br />
+            店頭にステッカー等を貼ったら、<br />
+            すぐに決済開始できます。
+          </p>
+        </div>
+        <div style="clear: left"></div>
+      </div>
+      <!-- 導入の流れ ここまで-->
+
+      <!--お申し込み ここから-->
+      <div class="bg01">
+        <p class="btn01">
+          <a href="./entry/" target="_blank"><img src="img/btn01.jpg" alt="無料でお店に導入する" /></a>
+        </p>
+      </div>
+      <!--お申し込み ここまで-->
+
+      <!-- 導入方式のご案内 ここから-->
+      <h2 class="title01 ver3"><span class="big">導入方式のご案内</span></h2>
+      <div id="box05">
+        <div class="float margin08">
+          <h3>
+            加盟店さまが掲示したコードを<br />
+            お客さまが読み込む決済
+          </h3>
+          <p><img src="img/lp_12.jpg" alt="" /></p>
+          <p class="box05text01">
+            加盟店さまは「QRコード」を店頭に用意するだけ。お客さまのスマホでコードを読み取っていただくだけで決済が完了します。
+          </p>
+        </div>
+        <div class="float margin09">
+          <h3>
+            お客さまのコードを<br />
+            読み込む決済
+          </h3>
+          <p><img src="img/lp_13.jpg" alt="" /></p>
+          <p class="box05text01 ver6">
+            加盟店さまが、お客さまのスマホ画面の「QRコード」を読み取るだけで決済が完了します。
+          </p>
+        </div>
+        <div style="clear: left"></div>
+      </div>
+      <!-- 導入方式のご案内 ここまで-->
+
+      <!-- トピックス ここから-->
+      <h2 class="title01 ver7">トピックス</h2>
+      <div id="bg03">
+        <p class="bnr">
+          <a href="https://diamond.jp/articles/-/235220" target="_blank"
+            ><img src="img/lp_14.png" class="pc" alt="コロナ感染防止対策" /><img
+              src="img/lp_14_sp.png"
+              class="sp"
+              alt="コロナ感染防止対策"
+          /></a>
+        </p>
+        <div id="position">
+          <p class="bnr">
+            <a href="https://www.au.com/payment/point/" target="_blank"
+              ><img src="img/lp_15.png" class="pc" alt="Pontaポイントが使えるお店に" /><img
+                src="img/lp_15_sp.png"
+                class="sp"
+                alt="Pontaポイントが使えるお店に"
+            /></a>
+          </p>
+          <p id="bnrtext01">全国会員数、1億人</p>
+        </div>
+        <p class="bnr">
+          <a href="https://www.itmedia.co.jp/mobile/articles/2004/21/news078.html" target="_blank"
+            ><img src="img/lp_16.png" class="pc" alt="今後のキャンペーンにも期待！" /><img
+              src="img/lp_16_sp.png"
+              class="sp"
+              alt="今後のキャンペーンにも期待！"
+          /></a>
+        </p>
+      </div>
+      <!-- トピックス ここまでら-->
+
+      <!-- よくあるご質問 ここから-->
+      <div id="bgqa">
+        <h2 class="title01">よくあるご質問</h2>
+        <div class="boxqa">
+          <dl>
+            <dt>入金サイクルは？</dt>
+            <hr class="border01" />
+            <dd>
+              月1回（末日締め⇒翌月末日払い）、月2回（15日締め/翌月15日払い、末日締め/翌月末日払い）、<br />
+              早期振込サービスのいずれかをお選びいただけます。<br />
+              尚、振込手数料はKDDI負担となります。早期振込サービスは、別途事務手数料が掛かりますので、ご注意ください。<br />
+              （事務手数料は2021年7月31日まで無料）<br />
+              1回の振込額が1万円に満たない場合、次回の精算に繰り越します。<br />
+              ※2回連続での繰り越しは行いません。<br />
+              早期振込サービスを選択した場合、お支払通知、お支払額明細の作成は、月1回となります。
+            </dd>
+          </dl>
+        </div>
+        <div class="boxqa">
+          <dl>
+            <dt>au PAY加盟店加入費用を教えてください。</dt>
+            <hr class="border01" />
+            <dd>
+              au PAY加盟店に加入するための費用は発生いたしません。<br />
+              ただし、au PAYで決済をするために、以下の費用が発生する場合があります。<br />
+              <br />
+              ＜au PAY for BIZアプリ（加盟店様向けアプリ）をご利用の場合＞<br />
+              ・au PAY for
+              BIZアプリは無料でダウンロードいただけます。※ダウンロード時の通信料はお客様の負担となります。<br />
+              ・au PAY for
+              BIZアプリをダウンロードする端末（スマートフォン、タブレット）は、お客様ご自身でご用意ください。<br />
+              ・au PAY for
+              BIZアプリで決済を行う場合、KDDIとの通信が発生いたします。通信が可能となる環境をご用意ください。<br />
+              ・au PAY for BIZアプリで決済を行った場合、通信料が発生します。
+            </dd>
+          </dl>
+        </div>
+        <div class="boxqa">
+          <dl>
+            <dt>加盟店加入には、どのような書類が必要ですか？</dt>
+            <hr class="border01" />
+            <dd>
+              以下の書類が必要です。<br />
+              ＜法人／個人事業主共通＞<br />
+              ・お申込みいただく法人様、個人事業主様のホームページがない場合、店舗外観／店舗内観の写真を各1枚。<br />
+              （店舗名、取扱い商品がわかるもの）<br />
+              ＜お申込者が法人の場合＞<br />
+              ・法人番号（法人マイナンバー）＜お申込者が個人事業主の場合＞<br />
+              ・運転免許証のコピー（国際免許証は除きます。記載内容に変更がある場合は、裏面のコピーも必要です。）<br />
+              ・運転経歴証明書（顔写真があるもの）<br />
+              ・パスポートのコピー（顔写真があるページ）<br />
+              ・健康保険被保険者証<br />
+              ・国民健康保険被保険者証<br />
+              ・在留カード（顔写真あり）<br />
+              ・特別永住者証明書（顔写真あり）<br />
+              ※いずれも有効期限内のものに限ります。<br />
+              ※いずれもご氏名・ご住所が確認できる箇所をご提出ください。<br />
+              ※本人確認書類の裏面等に氏名・住所等の記載がある場合は、裏面もアップロードしてください。<br />
+              ※いずれも「代表者」の本人確認書類をご提出ください。<br />
+              本人確認書類に記載のご氏名・ご住所と、本サイトで申請いただく「代表者」のご氏名・ご住所が一致するか
+              照合させていただきます。
+              一致しない場合は、審査不備となり再度のご申請が必要となりますのでご注意ください。<br />
+              ※メルペイを同時にお申込みされる場合、運転経歴証明書はご利用いただけません。<br />
+              上記をご提出の場合は、お申込み完了後、株式会社メルペイよりご連絡させていただきます。
+            </dd>
+          </dl>
+        </div>
+        <div class="boxqa">
+          <dl>
+            <dt>QR提供方式は何を選べばよいですか？</dt>
+            <hr class="border01" />
+            <dd>
+              どの方式を利用して決済サービスを提供するかを選択してください。<br />
+              ＜店舗が提示したコードをお客様が読み込む決済＞<br />
+              店舗で印字したQRコードを貼りつけたスタンドを、お客様のau
+              PAYアプリで読み込む決済方式です。店舗でスマートフォン、タブレットなどをご準備いただく必要がありません。<br />
+              ＜お客様のコードを読み込む決済＞<br />
+              お客様がau PAYアプリでQRコードを提示し、それを店舗のアプリで読み込む決済方式です。店舗でau PAY for
+              BIZアプリをインストールしたスマートフォン、タブレットをご用意いただく必要があります。
+            </dd>
+          </dl>
+        </div>
+        <div class="boxqa">
+          <dl>
+            <dt>au PAYユーザーのお支払い上限金額はいくらですか？</dt>
+            <hr class="border01" />
+            <dd>1回あたりのお支払い可能額は25万円以内です。</dd>
+          </dl>
+        </div>
+        <div class="boxqa">
+          <dl>
+            <dt>au PAYはau携帯電話をお持ちでない方も利用できますか？</dt>
+            <hr class="border01" />
+            <dd>
+              スマートフォンをご利用の方はどなたでもお使い頂けます。<br />
+              ・au PAY アプリのダウンロードとau IDを取得が必要です。<br />
+              ・au PAY利用規約への同意が必要です。
+            </dd>
+          </dl>
+        </div>
+        <div class="boxqa">
+          <dl>
+            <dt>販促ツールはありますか？</dt>
+            <hr class="border01" />
+            <dd>
+              ステッカーなどau PAY導入ツールを1セットお送りいたします。<br />
+              ”店舗が提示したコードをお客さまが読み込む決済”をご利用の場合は、店頭にQRコードを掲出するためのQRコードシール/QRコードスタンドも同梱されております。
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <!-- よくあるご質問 ここまで-->
+
+      <!--お問い合わせ ここから-->
+      <h2 class="title01 ver5">お問い合わせ</h2>
+      <div id="box06">
+        <p id="text03">
+          新型コロナ対策に、<br class="sp" />
+          キャッシュレス決済がオススメ！
+        </p>
+        <p id="text04">
+          お申込みについて、<br class="sp" />
+          お気軽にご相談ください。
+        </p>
+        <h2 id="support">
+          【au PAY お申込みサポート<br class="sp" />
+          センター】
+        </h2>
+        <p id="tell"><span class="free">無料</span> <a href="tel:0120829064">0120-829-064</a></p>
+        <p id="time">受付時間：平日/<span class="bold">10：00～18：00</span></p>
+
+        <p class="btn03">
+          <a href="https://www.bgent.net/view/2468" target="_blank"><img src="img/btn03.png" alt="" /></a>
+        </p>
+        <p id="text03">
+          サイト運営会社：<br class="sp" />
+          <a href="./profile/">株式会社メディアクリエイトソリューションズ</a>
+        </p>
+      </div>
+      <!--お問い合わせ ここまで-->
+
+      <!--お申し込み ここから-->
+      <div class="pc">
+        <div class="bg01 ver4">
+          <p id="oneminu">＼ 1分で仮登録完了！／</p>
+          <p class="btn01 ver8">
+            <a href="./entry/" target="_blank"><img src="img/btn01.jpg" alt="無料でお店に導入する" /></a>
+          </p>
+        </div>
+      </div>
+      <!--お申し込み ここまで-->
+
+      <!--SPフッター固定パーツここから-->
+      <div class="link01">
+        <div id="boxunder">
+          <div class="sp">
+            <div class="bg01 ver4">
+              <p id="oneminu">＼ 1分で仮登録完了！／</p>
+              <p class="btn01 ver8">
+                <a href="./entry/" target="_blank"><img src="img/btn01.jpg" alt="無料でお店に導入する" /></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--SPフッター固定パーツここまで-->
+    </div>
+  </body>
+</html>
