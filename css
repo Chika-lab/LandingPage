@@ -1,0 +1,1665 @@
+@charset "utf-8";
+/*-------------------------------- reset--------------------------------*/
+body,h1,h2,h3,p,ul,li,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+fieldset,img {
+    margin: 0;
+    border: 0;
+    vertical-align: bottom;
+}
+img {
+    vertical-align: bottom;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+/*-------------------------------- reset --------------------------------*/
+a:link {
+    color: #333333;
+    text-decoration: none;
+    border: none;
+}
+ a:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+ a:visited {
+    color: #333333;
+    text-decoration: none;
+    border: none;
+}
+body {
+    width: 100%;
+    min-width: 700px;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.fa-fw {
+    color: #cc0000;
+}
+.yellow {
+    color: #eb5505;
+    font-weight: bold;
+    background: linear-gradient(transparent 50%, #ffea44 50%);
+}
+.red {
+    font-weight: bold;
+    color: #eb5505;
+}
+.bold {
+    font-weight: bold;
+}
+.big {
+    font-size: 28px;
+    line-height: 38px;
+}
+#wrap {
+    padding: 0;
+    margin: 0px auto;
+}
+#mainbg {
+    background: url(img/mainbk.jpg) no-repeat scroll 50%;
+}
+#main {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    /*相対配置*/
+}
+.white {
+    color: #FFFFFF;
+}
+ #maintext01 {
+    position: absolute;
+    top: 83%;
+    left: 5%;
+    color: #eb5505;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 1.5% 3% 1.5% 2%;
+    /* Permalink - use to edit and share this gradient: http: //colorzilla.com/gradient-editor/#00a400+0,00a400+39,00a400+39,03c303+39,03c303+100 */
+background: #ffcbaf;
+    /* Old browsers */
+background: url(img/annotation01.png) no-repeat 98% 1.5%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 42%, #eb5505 42%, #FFFFFF 42%, #FFFFFF 100%);
+    /* FF3.6-15 */
+background: url(img/annotation01.png) no-repeat 98% 1.5%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+    /* Chrome10-25,Safari5.1-6 */
+background: url(img/annotation01.png) no-repeat 98% 1.5%, linear-gradient(to right, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
+    /* IE6-9 */
+ border-radius: 10px;
+    /* CSS3草案 */
+ -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 10px;
+    /* Firefox用 */
+border: solid 2px #ffba95;
+}
+ #maintext02 {
+    position: absolute;
+    top: 83%;
+    left: 36%;
+    color: #eb5505;
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 1.5% 1.5% 1.5% 2%;
+    /* Permalink - use to edit and share this gradient: http: //colorzilla.com/gradient-editor/#00a400+0,00a400+39,00a400+39,03c303+39,03c303+100 */
+background: #ffcbaf;
+    /* Old browsers */
+background: url(img/annotation02.png) no-repeat 98% 1.5%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 45%, #eb5505 45%, #FFFFFF 45%, #FFFFFF 100%);
+    /* FF3.6-15 */
+background: url(img/annotation02.png) no-repeat 98% 1.5%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+    /* Chrome10-25,Safari5.1-6 */
+background: url(img/annotation02.png) no-repeat 98% 1.5%, linear-gradient(to right, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
+    /* IE6-9 */
+ border-radius: 10px;
+    /* CSS3草案 */
+ -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 10px;
+    /* Firefox用 */
+border: solid 2px #ffba95;
+}
+.small03 {
+    font-size: 20.5px;
+    font-weight: normal;
+    color: #4c4c4c;
+}
+#bgannotation {
+    background: #ffea44;
+    padding-top: 1%;
+}
+#annotationtext01 {
+    font-size: 10px;
+    line-height: 15px;
+    color: #666666;
+    max-width: 960px;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 5%;
+}
+.annotationtext02 {
+    font-size: 10px;
+    line-height: 15px;
+    color: #666666;
+    max-width: 260px;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-left: 13%;
+}
+.small04 {
+    color: #333333;
+    font-size: 10px;
+}
+.bg-image-loop {
+    width: 100%;
+    height: auto;
+    /* 画像の高さを指定 */
+position: relative;
+    background: #330000;
+    background: url(img/loop.png) repeat-x;
+    background-size: auto 21%;
+    animation: bg-slider 101s linear infinite;
+    /* 23sの部分背景画像の約数だとスムーズ */
+margin: 0 0;
+    padding: 0;
+}
+@keyframes bg-slider {
+    from {
+    background-position: 0 69%;
+}
+ to {
+    background-position: -1518px 69%;
+}
+ /* 1518pxとは使用した背景画像の長さ */
+}
+/*-------------------- ヘッダーここから---------------*/
+#header {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 27px;
+    padding-top: 26px;
+}
+.main-nav {
+    display: -webkit-flex;
+    display: flex;
+}
+.main-nav li:first-child {
+    margin-right: auto;
+}
+.main-nav a {
+    display: block;
+}
+#menu {
+    padding-top: 2.9%;
+    padding-right: 4%;
+    display: inline;
+}
+#logo {
+    margin-top: 2px;
+}
+#logo img {
+    width: 259px;
+}
+ .main-nav li a {
+    display: inline;
+}
+ #headbtn a:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha( opacity=70 )";
+    7}
+ #headbtn img {
+    width: 282px;
+}
+.navi {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+/*-------------------- ヘッダーここまで---------------*/
+h1 {
+}
+.bg01 {
+    background: #ffea44;
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+}
+#bg02 {
+    background: #ea5505;
+    background: linear-gradient(180deg,#ea5505 0%,#ea5505 78.9%,#ffffff 78.9%,#ffffff 100%);
+}
+#bg03 {
+    background: #ffea44;
+    padding-top: 4.5%;
+    padding-bottom: 4.5%;
+}
+#bgqa {
+    background: url(img/qabk.jpg) 0% 7%;
+}
+.box01 {
+    padding: 2% 0 2% 0;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    /* CSS3草案 */
+ -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 10px;
+    /* Firefox用 */
+}
+ .Item01 {
+    float: left;
+}
+.btn01 img {
+    width: 438px;
+  }
+  .btn03 img {
+      width: 438px;
+}
+.btn01 a:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha( opacity=70 )";
+    7}
+.btn02 a:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha( opacity=70 )";
+    7}
+.btn03 a:hover img {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -ms-filter: "alpha( opacity=70 )";
+    7}
+.margin01 {
+    margin-left: 2.5%;
+}
+.margin02 {
+    margin-left: 1.5%;
+}
+#text01 {
+    font-size: 25px;
+    color: #333333;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+}
+.title01 {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding-top: 8%;
+    margin-bottom: 6%;
+}
+/*以下で線を表示*/
+.title01:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    /*線の上下位置*/
+ display: inline-block;
+    width: 123px;
+    /*線の長さ*/
+ height: 4px;
+    /*線の太さ*/
+ -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /*位置調整*/
+ background-color: #ea5505;
+    /*線の色*/
+}
+.box02 {
+    margin-top: 2px;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 10px;
+    /* CSS3草案 */
+ -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 10px;
+    /* Firefox用 */
+ margin-bottom: 3%;
+}
+.box02text {
+    padding: 1% 5% 5% 4.2%;
+    color: #333333;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+}
+ .float {
+    float: left;
+}
+.margin03 {
+    width: 352px;
+    margin-left: 8.5%;
+    margin-top: 4%;
+}
+.margin04 {
+    width: 352px;
+    margin-left: 8.5%;
+    margin-top: 4%;
+}
+#box03 {
+    margin-top: 2px;
+    padding: 3% 0 3% 0;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: #eb5505 solid 4px;
+    border-radius: 14px;
+    /* CSS3草案 */
+ -webkit-border-radius: 14px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 14px;
+    /* Firefox用 */
+ margin-bottom: 3%;
+}
+#box03 h3 {
+    background: #eb5505;
+    border-radius: 14px;
+    /* CSS3草案 */
+ -webkit-border-radius: 14px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 14px;
+    /* Firefox用 */
+ padding: 2% 0 2% 0;
+    color: #ffffff;
+    margin-bottom: 8%;
+}
+.box03text01 {
+    font-size: 18px;
+    line-height: 32px;
+    color: #eb5505;
+    font-weight: bold;
+    padding: 4% 0 4% 0;
+}
+.box03text02 {
+    background: #ffea44;
+    border-radius: 14px;
+    /* CSS3草案 */
+ -webkit-border-radius: 14px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 14px;
+    /* Firefox用 */
+font-size: 29px;
+    line-height: 37px;
+    color: #003399;
+    font-weight: bold;
+    padding: 4% 0 2% 0;
+}
+.box03text03 {
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
+    padding: 6% 0 6% 0;
+    text-align: left;
+}
+.margin05 {
+    width: 320px;
+    margin-left: 2%;
+    background: url(img/arrow01.jpg) 100% 35% no-repeat;
+}
+.margin06 {
+    width: 320px;
+    margin-left: 2%;
+    background: url(img/arrow01.jpg) 100% 35% no-repeat;
+}
+.margin07 {
+    width: 345px;
+    margin-left: 2%;
+}
+.big {
+    font-size: 47px;
+    color: #eb5505;
+    font-weight: bold;
+}
+.ver2 {
+    margin-bottom: 4.5%;
+}
+ .text02 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #333333;
+    font-weight: bold;
+}
+#box04 {
+    padding-top: 5%;
+    padding-bottom: 1.5%;
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+.box04text01 {
+    font-size: 22px;
+    line-height: 32px;
+    color: #0d2d80;
+    font-weight: bold;
+    padding: 4% 0 2% 0;
+    margin-left: 3%;
+}
+.box04text02 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+    padding: 4% 0 4% 0;
+    margin-left: 3%;
+}
+.margin08 {
+    width: 412px;
+    margin-left: 0.5%;
+    padding-right: 13%;
+    background: url(img/or.jpg) 100% 45% no-repeat;
+}
+.margin09 {
+    width: 412px;
+    margin-left: 0.5%;
+}
+.ver3 {
+    margin-bottom: 5%;
+}
+#box05 {
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+#box05 h3 {
+    background: #eb5505;
+    border-radius: 14px;
+    /* CSS3草案 */
+ -webkit-border-radius: 14px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 14px;
+    /* Firefox用 */
+ padding: 3% 4% 3% 4%;
+    color: #ffffff;
+    margin-bottom: 8%;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: bold;
+}
+.box05text01 {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 4% 0 2% 0;
+}
+/*-------------------- よくある質問　ここから---------------*/
+.boxqa {
+    margin-top: 2px;
+    padding: 3% 0 2% 0;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: #eb5505 solid 4px;
+    border-radius: 14px;
+    /* CSS3草案 */
+ -webkit-border-radius: 14px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 14px;
+    /* Firefox用 */
+margin-bottom: 2%;
+}
+dl {
+    overflow: hidden;
+    _zoom: 1;
+}
+dt,dd {
+    text-align: left;
+    background: none no-repeat left top;
+}
+dd {
+    background: url(img/answer.jpg) no-repeat;
+    background-position: 0 5px;
+    overflow: hidden;
+    font-size: 15px;
+    color: #666666;
+    padding: 9px 2% 1.5% 5%;
+    margin-left: 2%;
+}
+dt {
+    background: url(img/question.jpg) no-repeat;
+    font-size: 28px;
+    font-weight: bold;
+    color: #eb5505;
+    padding: 7px 2% 1% 5%;
+    margin-left: 2%;
+}
+.border01 {
+    border: none;
+    height: 2px;
+    background-image: linear-gradient(to right, #9b9b9b, #9b9b9b 2px, transparent 2px, transparent 4px);
+    background-size: 5px 2px;
+
+    background-position: bottom;
+    background-repeat: repeat-x;
+    max-width: 915px;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/*-------------------- よくある質問　ここまで---------------*/
+#text03 {
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 27px;
+    padding-bottom: 2%;
+}
+#text03 a {
+    color: #00f;
+    text-decoration: underline;
+}
+#text04 {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 5%;
+}
+#support {
+    font-size: 32px;
+    line-height: 33px;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+#oneminu {
+    font-size: 32px;
+    line-height: 33px;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+#tell {
+    font-size: 60px;
+    line-height: 33px;
+    color: #eb5505;
+    font-weight: bold;
+    padding-bottom: 3%;
+    vertical-align: middle;
+}
+#time {
+    font-size: 24px;
+    line-height: 28px;
+    color: #eb5505;
+    padding-bottom: 5%;
+}
+.free {
+    background: #ffea44;
+    padding: 3px 5px 0px 5px;
+    color: #FFFFFF;
+    -moz-border-radius: 10px;
+    /* 古いFirefox */
+ -webkit-border-radius: 10px;
+    /* 古いSafari,Chrome */
+ border-radius: 10x;
+    /* CSS3 */
+color: #eb5505;
+    font-size: 40px;
+    vertical-align: middle;
+}
+.ver4 {
+    background: url(img/lp_17.png), #ffea44;
+    background-repeat: no-repeat;
+    background-position: 77%;
+}
+#tell a:link {
+    color: #eb5505;
+    text-decoration: none;
+}
+#tell a:hover {
+    color: #eb5505;
+}
+#tell a:visited {
+    color: #eb5505;
+}
+#box07 {
+    padding-top: 2.7%;
+    padding-bottom: 2%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.box07text01 {
+    background: url(img/icon.jpg) no-repeat;
+    background-position: 49% 0;
+    font-size: 33.4px;
+    line-height: 150%;
+    font-weight: bold;
+    color: #333333;
+    padding: 9%;
+}
+.ver9 {
+    font-size: 21px;
+    line-height: 130%;
+}
+.margin10 {
+    width: 280px;
+    margin-left: 4%;
+}
+.margin11 {
+    width: 280px;
+    margin-left: 1.9%;
+}
+.margin12 {
+    width: 280px;
+    margin-left: 1.9%;
+}
+.big02 {
+    font-size: 44px;
+    color: #eb5505;
+}
+.big03 {
+    font-size: 37px;
+    color: #eb5505;
+    letter-spacing: -2px;
+}
+.big04 {
+    font-size: 31px;
+    color: #eb5505;
+    line-height: 170%;
+    letter-spacing: -1px;
+}
+.small {
+    font-size: 22.8px;
+    font-weight: normal;
+    display: block;
+    margin-right: 2%;
+}
+.small02 {
+    font-size: 22.8px;
+    font-weight: normal;
+    display: block;
+    margin-right: 2%;
+    line-height: 200%;
+}
+.black {
+    color: #333333;
+    font-size: 29px;
+}
+#position {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    /*相対配置*/
+}
+#bnrtext01 {
+    position: absolute;
+    top: 36%;
+    left: 68%;
+    color: #333333;
+    font-size: 31px;
+    font-weight: bold;
+}
+/*--------------------------------------------- PC設定ここまで--------------------------------------------------------------------*/
+@media screen and (min-width: 642px) and (max-width: 1000px) {
+    img {
+    max-width: 100%
+}
+.navi a {
+    display: block;
+    margin-bottom: 3%;
+    margin-top: 0;
+    padding-top: 0;
+}
+#menu {
+    padding-top: 0;
+    margin-top: 0;
+}
+.box01 {
+    width: 96%;
+    margin: 0 auto;
+}
+.box02 {
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+#box03 {
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+ .Item01 {
+    margin: 0 auto;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    float: none;
+    width: 70%;
+}
+.margin03 {
+    width: 44%;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.margin04 {
+    width: 44%;
+    padding-bottom: 3%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.margin05 {
+    width: 29%;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+.margin06 {
+    width: 29%;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+.margin07 {
+    width: 29%;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+.margin08 {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 2%;
+    background-size: 23%;
+}
+.margin09 {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+.boxqa {
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+.ver4 {
+    background: url(img/lp_17.png), #ffea44;
+    background-repeat: no-repeat;
+    background-position: 97% 0%;
+}
+.margin10 {
+    width: 29%;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+.margin11 {
+    width: 29%;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+.margin12 {
+    width: 29%;
+    margin: 0 auto;
+    margin-left: 2%;
+}
+.box07text01 {
+    background: url(img/icon.jpg) no-repeat;
+    background-position: 49% 0;
+    background-size: 100%;
+    font-size: 2.8vw;
+    padding: 9%;
+    padding-bottom: 20%;
+}
+.black {
+    font-size: 2.8vw;
+}
+.small {
+    font-size: 1.8vw;
+    font-weight: normal;
+    display: block;
+    margin-right: 2%;
+}
+.small02 {
+    font-size: 1.8vw;
+    font-weight: normal;
+    display: block;
+    margin-right: 2%;
+    line-height: 100%;
+}
+.big02 {
+    font-size: 3.2vw;
+    color: #eb5505;
+}
+.big03 {
+    font-size: 3.2vw;
+    color: #eb5505;
+    letter-spacing: -2px;
+}
+.big04 {
+    font-size: 2.4vw;
+    color: #eb5505;
+    line-height: 170%;
+    letter-spacing: -1px;
+}
+.ver9 {
+    font-size: 2.4vw;
+}
+#maintext01 {
+    font-size: 2.5vw;
+}
+#maintext02 {
+    font-size: 2.5vw;
+}
+.small03 {
+    font-size: 1.7vw;
+}
+#bnrtext01 {
+    position: absolute;
+    top: 36%;
+    left: 68%;
+    font-size: 3.1vw;
+}
+}
+/*--------------------------------------------- スマホ設定ここから---------------------------------------------------------------*/
+@media screen and (min-width: 641px) {
+    .sp {
+    display: none !important
+}
+}
+@media screen and (max-width: 640px) {
+    .pc {
+    display: none !important
+}
+body {
+    min-width: 100%;
+    width: 100%;
+    font-size: 10px;
+    line-height: 15px;
+}
+img {
+    max-width: 100%
+}
+#mainv {
+    -webkit-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto
+}
+#wrap {
+    width: 100% !important
+}
+p {
+    width: 100%
+ }
+.br-sp {
+    display: none;
+}
+#main {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*相対配置*/
+}
+#maintext01 {
+    width: 41%;
+    position: absolute;
+    top: 88.5%;
+    left: 4%;
+    font-size: 4.2vw;
+    border: solid 1px #ffba95;
+    padding: 2% 0.5% 2% 0.5%;
+    border-radius: 6px;
+    /* CSS3草案 */
+ -webkit-border-radius: 6px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 6px;
+    /* Firefox用 */
+background: #ffcbaf;
+    /* Old browsers */
+background: url(img/annotation01_sp.png) no-repeat 98% 7%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 42%, #eb5505 42%, #FFFFFF 42%, #FFFFFF 100%);
+    /* FF3.6-15 */
+background: url(img/annotation01_sp.png) no-repeat 98% 7%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+    /* Chrome10-25,Safari5.1-6 */
+background: url(img/annotation01_sp.png) no-repeat 98% 7%, linear-gradient(to right, #eb5505 0%,#eb5505 42%,#eb5505 42%,#FFFFFF 42%,#FFFFFF 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
+    /* IE6-9 */
+}
+#maintext02 {
+    width: 47%;
+    position: absolute;
+    top: 88.5%;
+    left: 49.1%;
+    font-size: 4.2vw;
+    letter-spacing: -1px;
+    border: solid 1px #ffba95;
+    padding: 2% 0.5% 2% 0.2%;
+    border-radius: 6px;
+    /* CSS3草案 */
+ -webkit-border-radius: 6px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 6px;
+    /* Firefox用 */
+background: #ffcbaf;
+    /* Old browsers */
+background: url(img/annotation02_sp.png) no-repeat 98% 7%, -moz-linear-gradient(left, #eb5505 0%, #eb5505 45%, #eb5505 45%, #FFFFFF 45%, #FFFFFF 100%);
+    /* FF3.6-15 */
+background: url(img/annotation02_sp.png) no-repeat 98% 7%, -webkit-linear-gradient(left, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+    /* Chrome10-25,Safari5.1-6 */
+background: url(img/annotation02_sp.png) no-repeat 98% 7%, linear-gradient(to right, #eb5505 0%,#eb5505 45%,#eb5505 45%,#FFFFFF 45%,#FFFFFF 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', endColorstr='#FFFFFF',GradientType=1);
+    /* IE6-9 */
+ }
+.small03 {
+    font-size: 3vw;
+}
+#annotationtext01 {
+    font-size: 10px;
+    line-height: 15px;
+    padding-left: 3%;
+    width: 96%;
+}
+.annotationtext02 {
+    font-size: 10px;
+    line-height: 15px;
+    width: 96%;
+}
+#logo {
+    width: 65%;
+    margin-right: 0;
+    padding-right: 0;
+}
+#logo img {
+    width: 150%;
+}
+#headbtn {
+    width: 68%;
+    margin-right: 17%;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0%;
+}
+/*--------------------------------スマホメニュー --------------------------------*/
+.header_top .container {
+    padding: 0px 0px;
+}
+.header_top {
+    padding-bottom: 1%;
+}
+.header_top .header_top-left {
+    display: inline-block;
+}
+.header_top .header_top-left h2 {
+    margin: 0;
+}
+.header_top .header_top-right {
+    float: right;
+}
+.header_top .header_top-left a,.header_top .header_top-right a {
+    display: inline-block;
+}
+.header_top .header_top-left a img,.header_top .header_top-right a img {
+    height: 75px;
+    width: auto;
+}
+.header_top .header_top-left a img {
+    margin-right: 10px;
+}
+.header_top .header_top-right a img {
+    margin-left: 10px;
+}
+.header_bottom {
+    border-top: 3px solid #ff7621;
+    border-bottom: 3px solid #ff7621;
+}
+.header_top-left {
+    margin: 0 auto;
+    padding-right: 20%;
+}
+.header_bottom .header_nav ul {
+    font-size: 0;
+}
+.header_bottom .header_nav ul li {
+    display: inline-block;
+    vertical-align: top;
+    border-left: 3px solid #ff7621;
+}
+.header_bottom .header_nav ul li:last-child {
+    border-right: 3px solid #ff7621;
+}
+.header_bottom .header_nav ul li a {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 80px;
+    color: #ff7621;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header_bottom .header_nav ul li a:hover {
+    text-shadow: 2px 2px 3px #ccb5a7;
+    background-color: #fff9f5;
+}
+.header_bottom .header_nav ul li a .header_nav-inner {
+    line-height: 24px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    width: 42px;
+    height: 42px;
+    margin: -64% 10px 5px 0;
+    padding: 9px 10px;
+    outline: 0 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff7621;
+    border-radius: 4px;
+    border: none;
+    background: #fff5d7;
+}
+.navbar-toggle .icon-bar {
+    background-color: #ff7621;
+}
+.navbar-toggle .icon-bar+ .icon-bar {
+    margin-top: 4px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle .icon-bar,.active .navbar-toggle .icon-bar,.navbar-toggle {
+    transition: 0.3s;
+}
+.navbar-toggle:active,.navbar-toggle:hover,.active .navbar-toggle {
+    background-color: #fff5d7;
+}
+.active .navbar-toggle .icon-bar.bar1 {
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.active .navbar-toggle .icon-bar.bar2 {
+    opacity: 0;
+}
+.active .navbar-toggle .icon-bar.bar3 {
+    -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.active .navbar-toggle .icon-bar+ .icon-bar {
+    margin-top: -1.5px;
+}
+.header-dropdown {
+    display: none;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 5%;
+    margin: 0 0 0;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    line-height: 150%;
+}
+.header-dropdown li {
+    padding: 3%;
+    transition: 0.3s;
+    border-bottom: 1px dashed #ff7621;
+    text-align: left;
+    width: 90%;
+}
+.header-dropdown li:first-child {
+    border-bottom: 1px dashed #ff7621;
+    width: 90%;
+}
+.header-dropdown li {
+    padding: 0;
+    transition: 0.3s;
+}
+.header-dropdown li:hover {
+    background-color: #fff5d7;
+}
+.header-dropdown li a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+/*--------------------------------スマホメニュー --------------------------------*/
+#mainbg {
+    background: none;
+}
+.bg-image-loop {
+    width: 100%;
+    height: auto;
+    /* 画像の高さを指定 */
+position: relative;
+    background: url(img/loop.png) repeat-x 0 0;
+    background-size: auto 17%;
+    animation: bg-slider 201s linear infinite;
+    /* 23sの部分背景画像の約数だとスムーズ */
+margin: 0 0;
+    padding: 0;
+}
+@keyframes bg-slider {
+    from {
+    background-position: 0 70%;
+}
+ to {
+    background-position: -1518px 70%;
+}
+ /* 1518pxとは使用した背景画像の長さ */
+}
+.Item01 {
+    margin: 0 auto;
+    float: none;
+}
+.big {
+    font-size: 26px;
+    line-height: 26px;
+}
+#header {
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.bg01 {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.btn01 {
+    width: 78%;
+    margin: 0 auto;
+}
+.title01 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    padding-top: 11%;
+    margin-bottom: 10%;
+}
+/*以下で線を表示*/
+.title01:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    /*線の上下位置*/
+ display: inline-block;
+    width: 123px;
+    /*線の長さ*/
+ height: 4px;
+    /*線の太さ*/
+ -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    /*位置調整*/
+ background-color: #ea5505;
+    /*線の色*/
+}
+#text01 {
+    width: 99%;
+    font-size: 15px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.box01 {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 3px;
+    /* CSS3草案 */
+ -webkit-border-radius: 3px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 3px;
+    /* Firefox用 */
+}
+.margin01 {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.margin02 {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.box02 {
+    width: 96%;
+    margin: 0 auto;
+    padding: 0 0 4% 0;
+    border-radius: 3px;
+    /* CSS3草案 */
+ -webkit-border-radius: 3px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 3px;
+    /* Firefox用 */
+ margin-bottom: 5%;
+}
+.box02text {
+    width: 90%;
+    padding: 0 5% 0 5%;
+    font-size: 12px;
+    line-height: 22px;
+}
+#box03 {
+    margin-top: 2px;
+    padding: 10% 0 3% 0;
+    width: 94%;
+    margin: 0 auto;
+    background: #ffffff;
+    border: #eb5505 solid 2px;
+    border-radius: 14px;
+    /* CSS3草案 */
+ -webkit-border-radius: 14px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 14px;
+    /* Firefox用 */
+ margin-bottom: 3%;
+}
+#box03 h3 {
+    font-size: 15px;
+    border-radius: 8px;
+    /* CSS3草案 */
+ -webkit-border-radius: 8px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 8px;
+    /* Firefox用 */
+}
+.margin03 {
+    float: none;
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+.margin04 {
+    float: none;
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+.text02 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 4.5%;
+}
+.box03text01 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.box03text02 {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 4% 0 4% 0;
+}
+.box03text03 {
+    font-size: 15px;
+    line-height: 24px;
+    padding: 4% 0 6% 0;
+}
+.margin05 {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 1%;
+    background: url(img/arrow02.jpg) 50% 95% no-repeat;
+    background-size: 10%;
+}
+.margin06 {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+    background: url(img/arrow02.jpg) 50% 95% no-repeat;
+    background-size: 10%;
+}
+.margin07 {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+.margin05 img {
+    width: 50%;
+}
+.margin06 img {
+    width: 50%;
+}
+.margin07 img {
+    width: 50%;
+}
+#box04 {
+    padding-bottom: 0%;
+    margin-bottom: 0;
+}
+.box04text01 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 4% 0 2% 0;
+}
+.box04text02 {
+    font-size: 15px;
+    line-height: 25px;
+    color: #333333;
+    padding: 2.5% 0 15% 0;
+    margin-left: 3%;
+}
+.margin08 {
+    float: none;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 15%;
+    background: url(img/or.jpg) 50% 95% no-repeat;
+    background-size: 20%;
+    padding-right: 0;
+}
+.margin09 {
+    float: none;
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 0%;
+}
+.box04text01 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 4% 0 2% 0;
+}
+.box04text02 {
+    font-size: 15px;
+    line-height: 25px;
+    color: #333333;
+    padding: 2.5% 0 15% 0;
+    margin-left: 3%;
+}
+#box05 {
+    padding-bottom: 0%;
+    margin-bottom: 0;
+}
+#box05 h3 {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: bold;
+    padding: 4% 0 4% 0;
+}
+.box05text01 {
+    font-size: 15px;
+    line-height: 25px;
+    color: #333333;
+    padding: 2.5% 0 15% 0;
+    margin-left: 3%;
+}
+.ber6 {
+    padding-bottom: -5%;
+    margin-bottom: 0;
+}
+.boxqa {
+    margin-top: 2px;
+    padding: 5% 0 3% 0;
+    width: 94%;
+    margin: 0 auto;
+    background: #ffffff;
+    border: #eb5505 solid 2px;
+    border-radius: 14px;
+    /* CSS3草案 */
+ -webkit-border-radius: 14px;
+    /* Safari,Google Chrome用 */
+ -moz-border-radius: 14px;
+    /* Firefox用 */
+margin-bottom: 3%;
+}
+dl {
+}
+dd {
+    width: 85%;
+    background-size: 6% auto;
+    background-position: 0 0px;
+    padding: 1px 0 2% 9%;
+    font-size: 12px;
+    line-height: 17px;
+    margin-top: 2%;
+}
+dt {
+    width: 87%;
+    background-size: 6% auto;
+    background-position: 0 0px;
+    padding: 1px 0 2% 9%;
+    line-height: 120%;
+    font-size: 15px;
+}
+.border01 {
+    width: 94%;
+}
+.bnr {
+    padding-bottom: 3%;
+}
+#bg03 {
+    padding-bottom: 2.5%;
+}
+#bgqa {
+    background: url(img/qabk.jpg) 0% 3%;
+    background-size: 80%;
+}
+ #box06 {
+    width: 98%;
+    margin: 0 auto;
+    margin-left: 1%;
+    padding-bottom: 30%;
+}
+#text03 {
+    margin: 10px auto 0;
+    width: 94%;
+    font-size: 16px;
+    line-height: 25px;
+}
+#text04 {
+    width: 94%;
+    font-size: 18px;
+    margin-left: 4%;
+    padding-left: 2.5%;
+    line-height: 25px;
+}
+.ver2 {
+    margin-bottom: 2%;
+}
+ .ver3 {
+    margin-bottom: 7.5%;
+}
+ #support {
+    width: width;
+    font-size: 23px;
+    line-height: 33px;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+#tell {
+    width: width;
+    font-size: 30px;
+    line-height: 33px;
+    color: #eb5505;
+    font-weight: bold;
+    padding-bottom: 3%;
+    vertical-align: text-top;
+}
+#time {
+    width: width;
+    font-size: 17px;
+    line-height: 28px;
+    color: #eb5505;
+    padding-bottom: 8%;
+}
+.free {
+    background: #ffea44;
+    padding: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    -moz-border-radius: 10px;
+    /* 古いFirefox */
+ -webkit-border-radius: 10px;
+    /* 古いSafari,Chrome */
+ border-radius: 10x;
+    /* CSS3 */
+color: #eb5505;
+    font-size: 20px;
+    vertical-align: text-top;
+}
+.ver4 {
+    background: url(img/lp_17.png), #ffea44;
+    background-repeat: no-repeat;
+    background-position: 100% -20%;
+    background-size: 18%;
+    padding-bottom: 2%;
+    padding-top: 2.7%;
+}
+.ver7 {
+    padding-top: 5%;
+}
+#oneminu {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+#box07 {
+    padding-top: 2.7%;
+    padding-bottom: 4%;
+    width: 96%;
+    margin: 0 auto;
+}
+.box07text01 {
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+    line-height: 150%;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 6%;
+    font-size: 6vw;
+}
+.ver9 {
+    font-size: 5vw;
+    line-height: 130%;
+}
+.big02 {
+    font-size: 7vw;
+    color: #eb5505;
+}
+.big03 {
+    font-size: 7vw;
+    color: #eb5505;
+    letter-spacing: -2px;
+}
+.big04 {
+    font-size: 5vw;
+    color: #eb5505;
+    line-height: 170%;
+    letter-spacing: -1px;
+}
+.small {
+    font-size: 4vw;
+    font-weight: normal;
+    display: block;
+    margin-right: 2%;
+    padding-bottom: 3%;
+}
+.small02 {
+    font-size: 4vw;
+    font-weight: normal;
+    display: block;
+    margin-right: 2%;
+    line-height: 100%;
+    padding-bottom: 5%;
+}
+.black {
+    color: #333333;
+    font-size: 4.5vw;
+}
+.margin10 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+    background: url(img/icon.jpg) no-repeat;
+    background-position: 49% 50%;
+    background-size: 75%;
+}
+.margin11 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+    background: url(img/icon.jpg) no-repeat;
+    background-position: 49% 50%;
+    background-size: 75%;
+}
+.margin12 {
+    width: 75%;
+    float: none;
+    margin: 0 auto;
+    background: url(img/icon.jpg) no-repeat;
+    background-position: 49% 50%;
+    background-size: 75%;
+}
+#position {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    /*相対配置*/
+}
+#bnrtext01 {
+    width: 55%;
+    position: absolute;
+    top: 41.5%;
+    left: -2.5%;
+    font-size: 4.1vw;
+    font-weight: bolder;
+}
+/*--------------------------------フッター固定パーツ--------------------------------*/
+.link01 {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+#boxunder {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 0%;
+}
+.ver8 {
+    width: 65%;
+}
+/*--------------------------------フッター固定パーツ--------------------------------*/
+}
+/*--------------------------------------------- スマホ設定ここまで--------------------------------------------------------------------*/
