@@ -199,7 +199,6 @@ margin: 0 0;
 #header {
     max-width: 1000px;
     margin: 0 auto;
-    position: fixed;
     padding: 0;
     padding-bottom: 27px;
     padding-top: 26px;
@@ -207,6 +206,7 @@ margin: 0 0;
 .main-nav {
     display: -webkit-flex;
     display: flex;
+    position: fixed;
 }
 .main-nav li:first-child {
     margin-right: auto;
