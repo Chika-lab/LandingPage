@@ -438,6 +438,7 @@ font-size: 29px;
     margin-left: 2%;
     background: url(arrow012.png) 100% 35% no-repeat;
     background-size: 50px 50px;
+    background-position: 300px;
 }
 .margin06 {
     width: 320px;
@@ -489,6 +490,7 @@ font-size: 29px;
     margin-left: 0.5%;
     padding-right: 13%;
     background: url(or2.png) 100% 45% no-repeat;
+    background-size: 50px 50px;
 }
 .margin09 {
     width: 412px;
