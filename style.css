@@ -206,12 +206,15 @@ margin: 0 0;
 .main-nav {
     display: -webkit-flex;
     display: flex;
+    position: fixed;
 }
 .main-nav li:first-child {
     margin-right: auto;
+    position: fixed;
 }
 .main-nav a {
     display: block;
+    position: fixed;
 }
 #menu {
     padding-top: 2.9%;
@@ -226,6 +229,7 @@ margin: 0 0;
 }
  .main-nav li a {
     display: inline;
+    position: fixed;
 }
  #headbtn a:hover img {
     opacity: 0.7;
@@ -238,7 +242,6 @@ margin: 0 0;
 .navi {
     font-size: 15px;
     margin-bottom: 0;
-    position: fixed;
 }
 /*-------------------- ヘッダーここまで---------------*/
 h1 {
