@@ -196,6 +196,14 @@ border: solid 2px #ffba95;
  /* 1518pxとは使用した背景画像の長さ */
 }
 /*-------------------- ヘッダーここから---------------*/
+.fixed {
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 #header {
     max-width: 1000px;
     margin: 0 auto;
