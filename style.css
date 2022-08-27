@@ -238,6 +238,7 @@ margin: 0 0;
 .navi {
     font-size: 15px;
     margin-bottom: 0;
+    position: fixed;
 }
 /*-------------------- ヘッダーここまで---------------*/
 h1 {
