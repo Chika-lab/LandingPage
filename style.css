@@ -206,7 +206,6 @@ margin: 0 0;
 .main-nav {
     display: -webkit-flex;
     display: flex;
-    position: fixed;
 }
 .main-nav li:first-child {
     margin-right: auto;
@@ -218,6 +217,7 @@ margin: 0 0;
     padding-top: 2.9%;
     padding-right: 4%;
     display: inline;
+    position: fixed;
 }
 #logo {
     margin-top: 2px;
