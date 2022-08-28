@@ -437,11 +437,13 @@ font-size: 29px;
     width: 320px;
     margin-left: 2%;
     background: url(arrow01_2.png) 100% 35% no-repeat;
+    z-index: 999;
 }
 .margin06 {
     width: 320px;
     margin-left: 2%;
     background: url(arrow01_2.png) 100% 35% no-repeat;
+    z-index: 999;
 }
 .margin07 {
     width: 345px;
