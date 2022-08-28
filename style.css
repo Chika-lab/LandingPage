@@ -437,11 +437,13 @@ font-size: 29px;
     width: 320px;
     margin-left: 2%;
     background: url(arrow01_2.png) 100% 35% no-repeat;
+    z-index: 999;
 }
 .margin06 {
     width: 320px;
     margin-left: 2%;
     background: url(arrow01_2.png) 100% 35% no-repeat;
+    z-index: 999;
 }
 .margin07 {
     width: 345px;
@@ -487,8 +489,7 @@ font-size: 29px;
     width: 412px;
     margin-left: 0.5%;
     padding-right: 13%;
-    background: url(or2.png) 100% 45% no-repeat;
-    background-size: 50px 50px;
+    background: url(or.jpg) 100% 45% no-repeat;
 }
 .margin09 {
     width: 412px;
@@ -655,7 +656,7 @@ color: #eb5505;
     margin: 0 auto;
 }
 .box07text01 {
-    background: url(icon2.png) no-repeat;
+    background: url(icon.jpg) no-repeat;
     background-position: 49% 0;
     font-size: 33.4px;
     line-height: 150%;
