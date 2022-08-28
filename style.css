@@ -204,7 +204,7 @@ border: solid 2px #ffba95;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 1000;
 }
 #header {
     max-width: 1000px;
@@ -212,6 +212,7 @@ border: solid 2px #ffba95;
     padding: 0;
     padding-bottom: 27px;
     padding-top: 26px;
+    z-index: 1000;
 }
 .main-nav {
     display: -webkit-flex;
@@ -900,6 +901,7 @@ body {
     bottom: 0;
     width: 100%;
     opacity: 0;
+    z-index: 1000;
 }
 #box04 {
     display: -webkit-flex;
