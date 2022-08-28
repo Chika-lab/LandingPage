@@ -435,19 +435,14 @@ font-size: 29px;
 }
 .margin05 {
     width: 320px;
-    margin-left: 2%;
-    background: url(arrow01_2.png) 100% 35% no-repeat;
-    z-index: 999;
+    position: relative;
 }
 .margin06 {
     width: 320px;
-    margin-left: 2%;
-    background: url(arrow01_2.png) 100% 35% no-repeat;
-    z-index: 999;
+    position: relative;
 }
 .margin07 {
     width: 345px;
-    margin-left: 2%;
 }
 .big {
     font-size: 47px;
@@ -466,9 +461,16 @@ font-size: 29px;
 #box04 {
     padding-top: 5%;
     padding-bottom: 1.5%;
-    max-width: 1050px;
+    max-width: 1150px;
     margin: 0 auto;
     margin-bottom: 3%;
+}
+/* box04内のクラスarrow */
+#box04 .arrow {
+    position: absolute;
+    right: -10%;
+    top: 25%;
+    z-index: 999;
 }
 .box04text01 {
     font-size: 22px;
@@ -898,6 +900,14 @@ body {
     bottom: 0;
     width: 100%;
     opacity: 0;
+}
+#box04 {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+.margin05 {
+    margin-left: 60px;
 }
 }
 @media screen and (max-width: 640px) {
@@ -1383,6 +1393,9 @@ margin: 0 0;
 #box04 {
     padding-bottom: 0%;
     margin-bottom: 0;
+}
+#box04 .arrow {
+    display: none;
 }
 .box04text01 {
     font-size: 20px;
