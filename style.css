@@ -1891,3 +1891,11 @@ button.campaign:hover {
 #campaign-detail > .condition > p:nth-child(4):before {
     content: url(condition_3.png);
 }
+
+#schedule > div:nth-child(1) {
+    background-color: rgba(255, 182, 193, 0.7);
+}
+
+#schedule > div:nth-child(2) {
+    background-color: rgba(173, 216, 230, 0.7);
+}
