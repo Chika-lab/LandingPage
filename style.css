@@ -207,9 +207,7 @@ border: solid 2px #ffba95;
     z-index: 1000;
 }
 #header {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0;
+    padding: 26px 10px;
     padding-bottom: 27px;
     padding-top: 26px;
     z-index: 1000;
@@ -228,6 +226,8 @@ border: solid 2px #ffba95;
     padding-top: 2.9%;
     padding-right: 4%;
     display: inline;
+    margin: 0px auto;
+    font-size: 24px;
 }
 #logo {
     margin-top: 2px;
@@ -247,8 +247,16 @@ border: solid 2px #ffba95;
     width: 282px;
 }
 .navi {
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 0;
+}
+.navi > a {
+    padding: 4px;
+    text-decoration: none;
+}
+.navi > a:hover {
+    border-radius: 5px;
+    background-color: #4c4c4c21;
 }
 /*-------------------- ヘッダーここまで---------------*/
 h1 {
