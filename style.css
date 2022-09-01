@@ -1828,3 +1828,41 @@ button.campaign {
 button.campaign:hover {
     transform: translateY(4px);
 }
+
+#campaign-detail {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+#campaign-detail p {
+    margin: 10px 0px;
+    font-size: 24px;
+}
+
+#campaign-detail > div.title {
+    font-size: 48px;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+#campaign-detail > .condition {
+    text-align: left;
+    font-size: 30px;
+    margin: 30px 0px;
+}
+#campaign-detail > .condition > .title {
+    margin: 20px 0px;
+    font-weight: bold;
+}
+#campaign-detail > .condition > p:before {
+    margin-right: 10px;
+}
+#campaign-detail > .condition > p:nth-child(2):before {
+    content: url(condition_1.png);
+}
+#campaign-detail > .condition > p:nth-child(3):before {
+    content: url(condition_2.png);
+}
+#campaign-detail > .condition > p:nth-child(4):before {
+    content: url(condition_3.png);
+}
