@@ -635,11 +635,11 @@ dt {
     vertical-align: middle;
 }
 #tell2 {
+    margin: 30px 0;
     font-size: 60px;
     line-height: 33px;
     color: #eb5505;
     font-weight: bold;
-    padding-bottom: 3%;
     vertical-align: middle;
 }
 #time {
