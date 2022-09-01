@@ -586,6 +586,8 @@ dt {
     font-size: 24px;
     line-height: 28px;
     padding-bottom: 5%;
+    max-width: 1000px;
+    margin: 10px auto;
     text-align: left;
 }
 #text03 {
