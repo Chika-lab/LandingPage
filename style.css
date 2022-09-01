@@ -1700,3 +1700,94 @@ color: #eb5505;
 /*--------------------------------フッター固定パーツ--------------------------------*/
 }
 /*--------------------------------------------- スマホ設定ここまで--------------------------------------------------------------------*/
+
+/* CLASS STYLING */
+/* shape styles */
+.rounded { border-radius: 50px; }
+.rounded-light { border-radius: 25px; }
+/* text styles */
+.text-theme-primary { color: #eb5505; }
+.text-theme-secondary { color: rgb(19, 43, 123); }
+.text-centering { text-align: center; }
+/* background styles */
+.background-theme-primary {
+    background-color: #eb5505;
+    color: white;
+}
+.background-theme-secondary {
+    background-color: rgb(19, 43, 123);
+    color: white;
+}
+.background-theme-tertiary {
+    background-color: #ffea44;
+}
+.background-theme-detail {
+    background-color: rgb(241, 204, 177);
+}
+/* border styles */
+.border-theme-white { border-color: white; }
+.border-theme-primary { border-color: #eb5505; }
+
+/* border styles */
+.border-theme-white { border-color: white; }
+.border-theme-primary { border-color: #eb5505; }
+.border-theme-gold { border-color: linear-gradient(45deg, #B67B03 0%, #DAAF08 45%, #FEE9A0 70%, #DAAF08 85%, #B67B03 90% 100%);}
+.border-theme-detail { border-color: rgb(163, 94, 47); }
+
+/* font styles */
+.font-size-large { font-size: 18px; }
+.font-size-large-2 { font-size: 22px; }
+.font-size-large-3 { font-size: 26px; }
+.font-size-large-4 { font-size: 30px; }
+.font-size-large-5 { font-size: 40px; }
+.font-weight-bold { font-weight: bold; }
+
+/* button styles */
+/* 詳しく見るボタン */
+div > button.detail {
+    margin: 0px 0px 50px 0px;
+}
+button.detail {
+    padding: 10px 50px;
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 30px;
+
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(163, 94, 47);
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    cursor: pointer;
+    outline: none;
+}
+button.detail:hover {
+    transform: translateY(4px);
+}
+/* キャンペーンお申し込みボタン */
+div > button.campaign {
+    margin: 0px 0px 50px 0px;
+}
+button.campaign {
+    padding: 10px 50px;
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 30px;
+
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(163, 94, 47);
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    cursor: pointer;
+    outline: none;
+}
+button.campaign:hover {
+    transform: translateY(4px);
+}
