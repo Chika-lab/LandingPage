@@ -597,6 +597,13 @@ dt {
     line-height: 28px;
     padding-bottom: 5%;
 }
+#text05 {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
 #support {
     font-size: 32px;
     line-height: 33px;
