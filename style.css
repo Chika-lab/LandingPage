@@ -1892,10 +1892,22 @@ button.campaign:hover {
     content: url(condition_3.png);
 }
 
-#schedule > div:nth-child(1) {
-    background-color: rgba(255, 182, 193, 0.7);
+#schedule div {
+    margin: 20px 0px;
 }
 
-#schedule > div:nth-child(2) {
+#schedule div:nth-child(1) {
+    background-color: rgba(255, 182, 193, 0.7);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#schedule div:nth-child(3) {
     background-color: rgba(173, 216, 230, 0.7);
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
 }
