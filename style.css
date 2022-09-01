@@ -618,7 +618,15 @@ dt {
     font-weight: bold;
     padding-bottom: 3%;
 }
-#tell {
+#tell1 {
+    font-size: 60px;
+    line-height: 33px;
+    color: #eb5505;
+    font-weight: bold;
+    padding-bottom: 3%;
+    vertical-align: middle;
+}
+#tell2 {
     font-size: 60px;
     line-height: 33px;
     color: #eb5505;
