@@ -659,14 +659,24 @@ color: #eb5505;
     background-repeat: no-repeat;
     background-position: 77%;
 }
-#tell a:link {
+#tell1 a:link {
     color: #eb5505;
     text-decoration: none;
 }
-#tell a:hover {
+#tell1 a:hover {
     color: #eb5505;
 }
-#tell a:visited {
+#tell1 a:visited {
+    color: #eb5505;
+}
+#tell2 a:link {
+    color: #eb5505;
+    text-decoration: none;
+}
+#tell2 a:hover {
+    color: #eb5505;
+}
+#tell2 a:visited {
     color: #eb5505;
 }
 #box07 {
