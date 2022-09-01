@@ -1,15 +1,14 @@
 
 // class="detail" の処理
 $(function() {
-  $("#box03").hide();
-  $('.detail').on('click', function() {
-    console.log('hello');
-    if($("#box03").is(":hidden")){
-      $("#box03").show(500);
+  $("#schedule").hide();
+  $('.benefit-schedule').on('click', function() {
+    if($("#schedule").is(":hidden")){
+      $("#schedule").show(500);
       $(this).text("閉じる");
     }else{
-      $("#box03").hide(500);
-      $(this).text("詳しく見る");
+      $("#schedule").hide(500);
+      $(this).text("特典付与スケジュールを見る");
     }
   })
 });

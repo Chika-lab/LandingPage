@@ -930,7 +930,7 @@ color: #eb5505;
     display: none !important
 }
 body {
-    padding-bottom: 300px;
+    /* padding-bottom: 300px; */
 }
 #footer {
     position: fixed;
@@ -1780,6 +1780,32 @@ color: #eb5505;
 .font-weight-bold { font-weight: bold; }
 
 /* button styles */
+/* 詳しく見るボタン */
+div > button.benefit-schedule {
+    margin: 40px 0px 50px 0px;
+}
+button.benefit-schedule {
+    padding: 10px 50px;
+
+    color: white;
+
+    font-weight: bold;
+    font-size: 30px;
+
+    background-color: rgb(294, 193, 66);
+
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(163, 94, 47);
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    cursor: pointer;
+    outline: none;
+}
+button.benefit-schedule:hover {
+    transform: translateY(4px);
+}
 /* 詳しく見るボタン */
 div > button.detail {
     margin: 0px 0px 50px 0px;
