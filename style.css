@@ -1927,6 +1927,33 @@ button.campaign:hover {
     #campaign-detail > .condition > p:nth-child(4):before {
         content: url(condition_3.png);
     }
+
+    #tell1 {
+        display: flex;
+        justify-content: center;
+    }
+    #tell1 > div {
+        padding: 10px 15px;
+    }
+    #tell1 a {
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    #tell2 {
+        display: flex;
+        justify-content: center;
+    }
+    #tell2 > div {
+        padding: 10px 15px;
+    }
+    #tell2 a {
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
 }
 /* スマホ用 */
 @media screen and (max-width: 896px) { 
