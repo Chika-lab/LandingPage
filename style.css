@@ -70,11 +70,6 @@ body {
     font-size: 28px;
     line-height: 38px;
 }
-#wrap {
-    padding: 0;
-    /*margin: 0px auto;*/
-    margin-top:100px;/*ナビゲーションとの重なり回避*/
-}
 #mainbg {
     background: url(mainbk.jpg) no-repeat scroll 50%;
 }
@@ -197,16 +192,7 @@ border: solid 2px #ffba95;
  /* 1518pxとは使用した背景画像の長さ */
 }
 /*-------------------- ヘッダーここから---------------*/
-.fixed {
-    width: 100%;
-    height: 100px;
-    background: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
+
 #header {
     padding: 26px 10px;
     padding-bottom: 27px;
@@ -250,7 +236,7 @@ border: solid 2px #ffba95;
 }
 .navi {
     font-size: 20px;
-    margin-bottom: 0;
+    width: 642px;
 }
 .navi > a {
     padding: 4px;
@@ -1917,8 +1903,30 @@ button.campaign:hover {
     border-radius: 10px;
 }
 
+/*  */
+@media screen and (min-width: 896px) {
+    .fixed {
+        width: 100%;
+        height: 100px;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    }
+    #wrap {
+        padding: 0;
+        margin-top:100px;
+    }
+}
 /* スマホ用 */
 @media screen and (max-width: 896px) { 
+    #wrap {
+        padding: 0;
+        /*margin: 0px auto;*/
+        margin-top: 55px;
+    }
     h2.title01 {
         font-size: 26px;
     }
@@ -2084,5 +2092,19 @@ button.campaign:hover {
         text-align: left;
         font-size: 20px;
         margin: 30px 0px;
+    }
+
+    #spmenu {
+        list-style-type:none;
+    }
+
+    .fixed {
+        width: 100%;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
     }
 }
