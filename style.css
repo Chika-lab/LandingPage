@@ -1950,17 +1950,31 @@ button.campaign:hover {
         font-size: 14px;
         font-weight: bold;
     }
-    p#tell1 {
-        height: auto;
+    #tell1 {
+        display: flex;
+        justify-content: center;
+    }
+    #tell1 > div {
+        padding: 2px 10px;
     }
     #tell1 a {
         font-size: 30px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
     }
-    p#tell2 {
-        height: auto;
+    #tell2 {
+        display: flex;
+        justify-content: center;
+    }
+    #tell2 > div {
+        padding: 2px 10px;
     }
     #tell2 a {
         font-size: 30px;
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
     }
     /* 注意点 */
     #notes {
