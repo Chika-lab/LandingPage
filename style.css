@@ -73,10 +73,6 @@ body {
     font-size: 28px;
     line-height: 38px;
 }
-#wrap {
-    padding: 0;
-    margin-top:100px;　/*ナビゲーションとの重なり回避*/
-}
 #mainbg {
     background: url(mainbk.jpg) no-repeat scroll 50%;
 }
@@ -199,16 +195,7 @@ border: solid 2px #ffba95;
  /* 1518pxとは使用した背景画像の長さ */
 }
 /*-------------------- ヘッダーここから---------------*/
-.fixed {
-    width: 100%;
-    height: 100px;
-    background: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
+
 #header {
     padding: 26px 10px;
     padding-bottom: 27px;
@@ -252,7 +239,7 @@ border: solid 2px #ffba95;
 }
 .navi {
     font-size: 20px;
-    margin-bottom: 0;
+    width: 642px;
 }
 .navi > a {
     padding: 4px;
@@ -1916,4 +1903,210 @@ button.campaign:hover {
     font-size: 24px;
     font-weight: bold;
     border-radius: 10px;
+}
+
+/*  */
+@media screen and (min-width: 896px) {
+    .fixed {
+        width: 100%;
+        height: 100px;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    }
+    #wrap {
+        padding: 0;
+        margin-top:100px;
+    }
+}
+/* スマホ用 */
+@media screen and (max-width: 896px) { 
+    #wrap {
+        padding: 0;
+        /*margin: 0px auto;*/
+        margin-top: 55px;
+    }
+    h2.title01 {
+        font-size: 26px;
+    }
+    /* お問合せ */
+    h2#support.title01 {
+        font-size: 26px;
+    }
+    h2#support1 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    h2#support2 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    p#tell1 {
+        height: auto;
+    }
+    #tell1 a {
+        font-size: 30px;
+    }
+    p#tell2 {
+        height: auto;
+    }
+    #tell2 a {
+        font-size: 30px;
+    }
+    /* 注意点 */
+    #notes {
+        margin: 10px;
+    }
+    .left {
+        font-size: 18px;
+    }
+    .small {
+        font-size: 18px;
+    }
+    /* スケジュール */
+    #schedule div {
+        margin: 20px 0px;
+    }
+
+    #schedule img {
+        width: 95%;
+        margin: 0px auto;
+    }
+    
+    #schedule div:nth-child(1) {
+        background-color: rgba(255, 182, 193, 0.7);
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    
+    #schedule div:nth-child(3) {
+        background-color: rgba(173, 216, 230, 0.7);
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 10px;
+    }
+    
+    /* キャンペーンお申し込み ボタン */
+    div > button.campaign {
+        margin: 0px 0px 50px 0px;
+    }
+    button.campaign {
+        padding: 10px 15px;
+        width: 80%;
+
+        color: white;
+    
+        font-weight: bold;
+        font-size: 16px;
+    
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: rgb(163, 94, 47);
+    
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+        cursor: pointer;
+        outline: none;
+    }
+    button.campaign:hover {
+        transform: translateY(4px);
+    }
+
+    /* 特典スケジュールを見る ボタン */
+    div > button.benefit-schedule {
+        margin: 40px 0px 50px 0px;
+    }
+    button.benefit-schedule {
+        padding: 10px 15px;
+        width: 80%;
+
+        color: white;
+
+        font-weight: bold;
+        font-size: 16px;
+
+        background-color: rgb(294, 193, 66);
+
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: rgb(163, 94, 47);
+
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+        cursor: pointer;
+        outline: none;
+    }
+    button.benefit-schedule:hover {
+        transform: translateY(4px);
+    }
+    /* 詳しく見る ボタン */
+    div > button.detail {
+        margin: 0px 0px 50px 0px;
+    }
+    button.detail {
+        padding: 10px 30px;
+        width: 80%;
+    
+        color: white;
+    
+        font-weight: bold;
+        font-size: 16px;
+    
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: rgb(163, 94, 47);
+    
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+        cursor: pointer;
+        outline: none;
+    }
+    button.detail:hover {
+        transform: translateY(4px);
+    }
+
+    /* ご紹介キャンペーン内容 */
+    #campaign-detail {
+        line-height: normal;
+        margin: 10px;
+    }
+    #campaign-detail p {
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+
+    #campaign-detail > div.title {
+        font-size: 28px;
+        margin: 30px 0px;
+        font-weight: bold;
+    }
+    #campaign-detail > .condition {
+        text-align: left;
+        font-size: 20px;
+        margin: 30px 0px;
+    }
+
+    #spmenu {
+        list-style-type:none;
+    }
+
+    .fixed {
+        width: 100%;
+        background: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    }
 }
