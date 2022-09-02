@@ -295,10 +295,13 @@ h1 {
  .Item01 {
     float: left;
 }
+.btn01 {
+    width: 438px;
+}
 .btn01 img {
     width: 438px;
   }
-  .btn03 img {
+.btn03 img {
       width: 438px;
 }
 .btn01 a:hover img {
