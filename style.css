@@ -214,10 +214,7 @@ border: solid 2px #ffba95;
     display: block;
 }
 #menu {
-    padding-top: 2.9%;
-    padding-right: 4%;
-    display: inline;
-    margin: 0px auto;
+    margin: 20px auto;
     font-size: 24px;
 }
 #logo {
@@ -239,14 +236,22 @@ border: solid 2px #ffba95;
 }
 .navi {
     font-size: 20px;
-    width: 642px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.navi > a {
+.navi a {
     padding: 4px;
+    margin: 4px;
+    border-radius: 5px;
     text-decoration: none;
 }
-.navi > a:hover {
-    border-radius: 5px;
+.navi div:first-child {
+    border-left:rgb(65, 65, 65) 1.5px solid;
+}
+.navi div {
+    border-right:rgb(65, 65, 65) 1.5px solid;
+}
+.navi a:hover {
     background-color: #4c4c4c21;
 }
 /*-------------------- ヘッダーここまで---------------*/
