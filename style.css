@@ -1859,11 +1859,11 @@ button.campaign:hover {
 
 #campaign-detail p {
     margin: 10px 0px;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 #campaign-detail > div.title {
-    font-size: 18px;
+    font-size: 24px;
     margin: 30px 0px;
     font-weight: bold;
 }
