@@ -1859,7 +1859,7 @@ button.campaign:hover {
 
 #campaign-detail p {
     margin: 10px 0px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 #campaign-detail > div.title {
@@ -2112,7 +2112,7 @@ button.campaign:hover {
     
         border: 2px solid;
         border-radius: 10px;
-        border-color: rgb(294, 193, 66);
+        border-color: rgb(163, 94, 47);
     
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     
@@ -2134,7 +2134,7 @@ button.campaign:hover {
     }
 
     #campaign-detail > div.title {
-        font-size: 18px;
+        font-size: 24px;
         margin: 30px 0px;
         font-weight: bold;
     }
