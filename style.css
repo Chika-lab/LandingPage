@@ -1756,7 +1756,7 @@ color: #eb5505;
     background-color: #ffea44;
 }
 .background-theme-detail {
-    background-color: rgb(241, 204, 177);
+    background-color: rgb(294, 193, 66);
 }
 /* border styles */
 .border-theme-white { border-color: white; }
@@ -1817,7 +1817,7 @@ button.detail {
 
     border: 2px solid;
     border-radius: 10px;
-    border-color: rgb(294, 193, 66);
+    border-color: rgb(163, 94, 47);
 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
