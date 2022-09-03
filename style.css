@@ -1970,11 +1970,11 @@ button.campaign:hover {
         font-size: 26px;
     }
     h2#support1 {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
     }
     h2#support2 {
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
     }
     #tell1 {
@@ -2006,6 +2006,7 @@ button.campaign:hover {
     /* 注意点 */
     #notes {
         margin: 10px;
+        font-size: 14px;
     }
     .left {
         font-size: 18px;
@@ -2111,7 +2112,7 @@ button.campaign:hover {
     
         border: 2px solid;
         border-radius: 10px;
-        border-color: rgb(163, 94, 47);
+        border-color: rgb(294, 193, 66);
     
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     
@@ -2133,7 +2134,7 @@ button.campaign:hover {
     }
 
     #campaign-detail > div.title {
-        font-size: 28px;
+        font-size: 18px;
         margin: 30px 0px;
         font-weight: bold;
     }
