@@ -733,7 +733,7 @@ color: #eb5505;
     letter-spacing: -1px;
 }
 .small {
-    font-size: 22.8px;
+    font-size: 24px;
     font-weight: normal;
     display: block;
     margin-right: 2%;
@@ -1863,7 +1863,7 @@ button.campaign:hover {
 }
 
 #campaign-detail > div.title {
-    font-size: 24px;
+    font-size: 30px;
     margin: 30px 0px;
     font-weight: bold;
 }
