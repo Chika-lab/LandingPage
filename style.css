@@ -219,7 +219,6 @@ border: solid 2px #ffba95;
 }
 #logo {
     margin-top: 2px;
-    margin-right: 0px;
 }
 #logo img {
     width: 259px;
@@ -1943,6 +1942,7 @@ button.campaign:hover {
 .topic-theme a {
     cursor: pointer;
     color: #eb5505;
+    font-weight: bold;
 }
 
 .topic-theme > div {
