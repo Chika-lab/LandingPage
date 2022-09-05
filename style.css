@@ -923,6 +923,24 @@ color: #eb5505;
 }
 /*--------------------------------------------- スマホ設定ここから---------------------------------------------------------------*/
 @media screen and (min-width: 641px) {
+
+#headbtn > button {
+    width: 232px;
+    height: 42px;
+
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    cursor: pointer;
+}
+#headbtn > button:hover {
+    transform: translateY(4px);
+}
+#headbtn > button::before {
+    content: "▶ ︎";
+}
     .sp {
     display: none !important
 }
@@ -947,6 +965,9 @@ body {
 }
 }
 @media screen and (max-width: 640px) {
+#headbtn > button {
+    display: none;
+}
     .pc {
     display: none !important
 }
