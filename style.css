@@ -965,6 +965,18 @@ body {
 }
 }
 @media screen and (max-width: 640px) {
+
+
+.topic-theme:nth-child(1) > div:first-child::after {
+    content: none;
+}
+.topic-theme:nth-child(2) > div:first-child::after {
+    content: none;
+}
+.topic-theme:nth-child(3) > div:first-child::after {
+    content: none;
+}
+
 #headbtn > button {
     display: none;
 }
@@ -1292,8 +1304,9 @@ margin: 0 0;
     font-weight: bold;
     position: relative;
     display: inline-block;
-    padding-top: 11%;
+    padding-top: 18%;
     margin-bottom: 10%;
+    margin-top: 60px;
 }
 /*以下で線を表示*/
 .title01:before {
@@ -1753,6 +1766,7 @@ color: #eb5505;
     width: 65%;
 }
 /*--------------------------------フッター固定パーツ--------------------------------*/
+
 }
 /*--------------------------------------------- スマホ設定ここまで--------------------------------------------------------------------*/
 
@@ -2300,7 +2314,8 @@ button.campaign:hover {
         z-index: 1000;
         box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
     }
-
+}
+@media screen and (min-width: 570px) and (max-width: 895px) {
     .topic-theme {
         line-height: normal;
         position: relative;
@@ -2340,5 +2355,24 @@ button.campaign:hover {
         transform: translateY(-50%) scale(0.75);
         -webkit-transform: translateY(-50%)  scale(0.75);
         -ms-transform: translateY(-50%) scale(0.75);
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .topic-theme {
+        line-height: normal;
+        position: relative;
+    }
+    .topic-theme > div {
+        flex-direction: column;
+    }
+    .topic-theme > div:first-child > div {
+        font-size: 18px;
+        padding: 5px 10px;
+        margin: 0px auto;
+    }
+    .topic-theme > div:last-child > div {
+        justify-content: center;
+        margin-top: 10px;
     }
 }
