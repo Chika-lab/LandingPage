@@ -48,7 +48,6 @@ body {
     margin: 0;
     padding: 0;
     vertical-align: top;
-    text-align: center;
     font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 18px;
     line-height: 25px;
@@ -236,6 +235,7 @@ border: solid 2px #ffba95;
 }
 .navi {
     font-size: 20px;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
