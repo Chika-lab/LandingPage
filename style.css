@@ -208,7 +208,6 @@ border: solid 2px #ffba95;
     display: flex;
 }
 .main-nav li:first-child {
-    margin-right: auto;
 }
 .main-nav a {
     display: block;
