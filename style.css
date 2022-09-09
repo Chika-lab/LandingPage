@@ -291,10 +291,7 @@ h1 {
 }
 .btn01 {
     width: 438px;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+    margin: 0px auto;
 }
 .btn01 img {
     width: 438px;
@@ -1296,6 +1293,10 @@ margin: 0 0;
 .bg01 {
     padding-top: 6%;
     padding-bottom: 6%;
+}
+.bg01 img {
+    text-align: left;
+    width: 437px;
 }
 .btn01 {
     width: 78%;
