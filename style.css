@@ -291,7 +291,10 @@ h1 {
 }
 .btn01 {
     width: 438px;
-    margin: 0px auto;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
 .btn01 img {
     width: 438px;
