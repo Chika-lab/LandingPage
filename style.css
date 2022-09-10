@@ -257,10 +257,13 @@ border: solid 2px #ffba95;
 /*-------------------- ヘッダーここまで---------------*/
 h1 {
 }
-.bg01 {
+#bg01 {
     background: #ffea44;
     padding-top: 4.5%;
     padding-bottom: 4.5%;
+}
+#bg01 img {
+    padding: 15px;
 }
 #bg02 {
     background: #ea5505;
@@ -288,6 +291,9 @@ h1 {
 }
  .Item01 {
     float: left;
+}
+.campaign img{
+    width: 90%;
 }
 .btn01 {
     width: 438px;
@@ -1290,14 +1296,11 @@ margin: 0 0;
     padding-bottom: 3%;
     padding-top: 3%;
 }
-.bg01 {
+#bg01 {
     padding-top: 6%;
     padding-bottom: 6%;
 }
-.bg01 img {
-    text-align: left;
-    width: 437px;
-}
+
 .btn01 {
     width: 78%;
     margin: 0 auto;
