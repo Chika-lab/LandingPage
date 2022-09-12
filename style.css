@@ -73,6 +73,11 @@ body {
     font-size: 28px;
     line-height: 38px;
 }
+.stroke{
+    color: #333333;
+    -webkit-text-stroke: 1px #ffffff;
+    text-stroke: 1px #ffffff;
+}
 #mainbg {
     background: url(mainbk.jpg) no-repeat scroll 50%;
 }
