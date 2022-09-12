@@ -201,13 +201,13 @@ border: solid 2px #ffba95;
     padding-bottom: 27px;
     padding-top: 26px;
     z-index: 1000;
-    box-shadow: ;
 }
 .main-nav {
     display: -webkit-flex;
     display: flex;
 }
 .main-nav li:first-child {
+    margin-right: auto;
 }
 .main-nav a {
     display: block;
