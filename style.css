@@ -265,10 +265,10 @@ h1 {
 #bg01 img {
     padding: 15px;
 }
-#bg02 {
+/*#bg02 {
     background: #ea5505;
     background: linear-gradient(180deg,#ea5505 0%,#ea5505 78.9%,#ffffff 78.9%,#ffffff 100%);
-}
+}*/
 #bg03 {
     background: #ffea44;
     padding-top: 4.5%;
@@ -693,7 +693,7 @@ color: #eb5505;
 #tell2 a:visited {
     color: #eb5505;
 }
-#box07 {
+/*#box07 {
     padding-top: 2.7%;
     padding-bottom: 2%;
     max-width: 960px;
@@ -707,7 +707,7 @@ color: #eb5505;
     font-weight: bold;
     color: #333333;
     padding: 9%;
-}
+}*/
 .ver9 {
     font-size: 21px;
     line-height: 130%;
@@ -724,7 +724,7 @@ color: #eb5505;
     width: 280px;
     margin-left: 1.9%;
 }
-.big02 {
+/*.big02 {
     font-size: 44px;
     color: #eb5505;
 }
@@ -738,20 +738,20 @@ color: #eb5505;
     color: #eb5505;
     line-height: 170%;
     letter-spacing: -1px;
-}
+}*/
 .small {
     font-size: 24px;
     font-weight: normal;
     display: block;
     margin-right: 2%;
 }
-.small02 {
+/*.small02 {
     font-size: 22.8px;
     font-weight: normal;
     display: block;
     margin-right: 2%;
     line-height: 200%;
-}
+}*/
 .black {
     color: #333333;
     font-size: 29px;
@@ -870,14 +870,14 @@ color: #eb5505;
     margin: 0 auto;
     margin-left: 2%;
 }
-.box07text01 {
+/*.box07text01 {
     background: url(icon.jpg) no-repeat;
     background-position: 49% 0;
     background-size: 100%;
     font-size: 2.8vw;
     padding: 9%;
     padding-bottom: 20%;
-}
+}*/
 .black {
     font-size: 2.8vw;
 }
@@ -887,14 +887,14 @@ color: #eb5505;
     display: block;
     margin-right: 2%;
 }
-.small02 {
+/*.small02 {
     font-size: 1.8vw;
     font-weight: normal;
     display: block;
     margin-right: 2%;
     line-height: 100%;
-}
-.big02 {
+}*/
+/*.big02 {
     font-size: 3.2vw;
     color: #eb5505;
 }
@@ -908,7 +908,7 @@ color: #eb5505;
     color: #eb5505;
     line-height: 170%;
     letter-spacing: -1px;
-}
+}*/
 .ver9 {
     font-size: 2.4vw;
 }
@@ -1661,7 +1661,7 @@ color: #eb5505;
     font-weight: bold;
     padding-bottom: 1%;
 }
-#box07 {
+/*#box07 {
     padding-top: 2.7%;
     padding-bottom: 4%;
     width: 96%;
@@ -1678,12 +1678,12 @@ color: #eb5505;
     padding-bottom: 10%;
     margin-top: 6%;
     font-size: 6vw;
-}
+}*/
 .ver9 {
     font-size: 5vw;
     line-height: 130%;
 }
-.big02 {
+/*.big02 {
     font-size: 7vw;
     color: #eb5505;
 }
@@ -1697,7 +1697,7 @@ color: #eb5505;
     color: #eb5505;
     line-height: 170%;
     letter-spacing: -1px;
-}
+}*/
 .small {
     font-size: 4vw;
     font-weight: normal;
@@ -1705,14 +1705,14 @@ color: #eb5505;
     margin-right: 2%;
     padding-bottom: 3%;
 }
-.small02 {
+/*.small02 {
     font-size: 4vw;
     font-weight: normal;
     display: block;
     margin-right: 2%;
     line-height: 100%;
     padding-bottom: 5%;
-}
+}*/
 .black {
     color: #333333;
     font-size: 4.5vw;
