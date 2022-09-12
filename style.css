@@ -201,13 +201,13 @@ border: solid 2px #ffba95;
     padding-bottom: 27px;
     padding-top: 26px;
     z-index: 1000;
+    box-shadow: ;
 }
 .main-nav {
     display: -webkit-flex;
     display: flex;
 }
 .main-nav li:first-child {
-    margin-right: auto;
 }
 .main-nav a {
     display: block;
@@ -256,6 +256,9 @@ border: solid 2px #ffba95;
 }
 /*-------------------- ヘッダーここまで---------------*/
 h1 {
+}
+#voicebg {
+    background: url(qabk.jpg) no-repeat scroll 50%;
 }
 #bg01 {
     background: #ffea44;
@@ -1014,7 +1017,7 @@ filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', end
     width: 96%;
 }
 #logo {
-    width: 520%;
+    width: 65%;
     margin-right: 0;
     padding-right: 0;
 }
