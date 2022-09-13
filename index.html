@@ -56,6 +56,7 @@
     <script src="js/header-benefit.js" type="text/javascript" charset="UTF-8"></script>
     <script src="js/header-benefit-sp.js" type="text/javascript" charset="UTF-8"></script>
     <script src="js/header-toggle.js" type="text/javascript" charset="UTF-8"></script>
+    <script src="js/header-toggle_pc.js" type="text/javascript" charset="UTF-8"></script>
   </head>
 
   <body>
@@ -80,13 +81,33 @@
               <li id="logo">
                 <a href="index.html"><img src="campaign.png" alt="au PAY" /></a>
               </li>
-              <li id="headbtn">
-                <button class="background-theme-primary font-size-large">お店を紹介する</button> 
-              </li>
-            </ul>
+         <div class="header_pc">
+            <div class="header_top">
+              <div class="container_pc">
+                <li class="pc" id="pcmenu">
+                  <div class="header_top-right">
+                    <button type="button" class="navbar-toggle">
+                      <span class="sr-only"></span> <span class="icon-bar bar1"></span>
+                      <span class="icon-bar bar2"></span> <span class="icon-bar bar3"></span>
+                    </button>
+                  </div>
+                  <ul class="header-dropdown">
+                    <li><a href="#benefit-schedule" id="header-schedule">特典付与までのスケジュール</a></li>
+                    <li><a href="#voice">導入店舗さまの声</a></li>
+                    <li><a href="#support">お問い合わせ</a></li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+         </div>
+            <li id="headbtn">
+              <button class="background-theme-primary font-size-large">お店を紹介する</button> 
+            </li>   
+            </ul>            
+            
             <div class="header_sp">
               <div class="header_top">
-                <div class="container">
+                <div class="container_sp">
                   <li class="sp" id="spmenu">
                     <div class="header_top-right">
                       <button type="button" class="navbar-toggle">
@@ -143,7 +164,7 @@
       <!-- ご紹介キャンペーン内容 ここから -->
       <div id="campaign-detail">
         <div class="title text-theme-primary">■ au PAY加盟店ご紹介キャンペーン内容</div>
-        <p>2022年9月15日(木)から同年10月31日(月)の間に、KDDI株式会社（以下、「当社」）が提供するスマホ決済（au PAY（以下、「本サービス」））にお申込みいただいた加盟店が、次の条件を満たした場合に、紹介元加盟店1,500円（税込）、紹介先加盟店1,000円（税込）特典をお支払いいたします。</p>
+        <p>2022年9月15日(木)から同年10月31日(月)の間に、KDDI株式会社（以下、「当社」）が提供するスマホ決済（au PAY（以下、「本サービス」））にお申込みいただいた加盟店が、次の条件を満たした場合に、紹介元加盟店1,500円（不課税）、紹介先加盟店1,000円（不課税）特典をお支払いいたします。</p>
         <div class="condition">
           <div class="title text-theme-primary">■ 適用条件</div>
           <p>紹介先店舗が新規申込を行い、本サービスに登録されていること</p>
