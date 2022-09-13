@@ -223,6 +223,7 @@ border: solid 2px #ffba95;
 }
 #logo {
     margin-top: 2px;
+    margin-right: auto;
 }
 #logo img {
     width: 518px;
@@ -233,6 +234,7 @@ border: solid 2px #ffba95;
 }
 .header_pc {
     padding: 0px 0px;
+    margin-left: 10px;
 }
 
 .header_top {
@@ -240,6 +242,9 @@ border: solid 2px #ffba95;
 }
 .header_top .header_top-left {
     display: inline-block;
+}
+.header_top-left {
+    float: left;
 }
 .header_top .header_top-left h2 {
     margin: 0;
@@ -251,24 +256,26 @@ border: solid 2px #ffba95;
     display: none;
     background-color: #fff;
     list-style-type: none;
-    padding: 5%;
-    margin: 0 0 0;
+    padding: 20px;
+    margin: 10px 0;
     width: 100%;
     text-align: left;
     font-size: 20px;
     line-height: 150%;
     width: 400px;
+    position:absolute;
+    right: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
 }
 .header-dropdown_pc li {
     padding: 3%;
     transition: 0.3s;
     border-bottom: 1px dashed #ff7621;
     text-align: left;
-    width: 90%;
 }
 .header-dropdown_pc li:first-child {
     border-bottom: 1px dashed #ff7621;
-    width: 90%;
 }
 .header-dropdown_pc li {
     padding: 0;
@@ -276,11 +283,16 @@ border: solid 2px #ffba95;
 }
 .header-dropdown_pc li:hover {
     background-color: #fff5d7;
+    transform: scale(0.99);
+    cursor: pointer;
 }
 .header-dropdown_pc li a {
     padding: 10px;
     display: block;
     text-decoration: none;
+}
+.main-nav .header-dropdown_pc li a {
+    display: block;
 }
 .header-dropdown {
     display: none;
@@ -331,6 +343,10 @@ border: solid 2px #ffba95;
     border-radius: 4px;
     border: none;
     background: #fff5d7;
+    cursor: pointer;
+}
+.navbar-toggle:hover {
+    transform: scale(0.96);
 }
 .navbar-toggle_pc .icon-bar {
     background-color: #ff7621;
@@ -385,6 +401,7 @@ border: solid 2px #ffba95;
     border-radius: 4px;
     border: none;
     background: #fff5d7;
+    cursor: pointer;
 }
 .navbar-toggle .icon-bar {
     background-color: #ff7621;
@@ -1122,7 +1139,7 @@ body {
     display: none;
 }
     .pc {
-    display: none !important
+    display: none !important;
 }
 body {
     min-width: 100%;
@@ -1233,6 +1250,7 @@ filter: progid: dximagetransform.microsoft.gradient(startColorstr='#eb5505', end
     padding-left: 0;
     margin-top: 0%;
 }
+
 /*--------------------------------スマホメニュー --------------------------------*/
  
 .header_top {
@@ -2091,6 +2109,10 @@ button.campaign:hover {
 }
 /* スマホ用 */
 @media screen and (max-width: 895px) { 
+
+    .header-dropdown {
+        width: 100vw;
+    }
     #wrap {
         padding: 0;
         /*margin: 0px auto;*/
