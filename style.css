@@ -247,6 +247,41 @@ border: solid 2px #ffba95;
 .header_top-right {
     float: right;
 }
+.header-dropdown_pc {
+    display: none;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 5%;
+    margin: 0 0 0;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    line-height: 150%;
+    width: 400px;
+}
+.header-dropdown_pc li {
+    padding: 3%;
+    transition: 0.3s;
+    border-bottom: 1px dashed #ff7621;
+    text-align: left;
+    width: 90%;
+}
+.header-dropdown_pc li:first-child {
+    border-bottom: 1px dashed #ff7621;
+    width: 90%;
+}
+.header-dropdown_pc li {
+    padding: 0;
+    transition: 0.3s;
+}
+.header-dropdown_pc li:hover {
+    background-color: #fff5d7;
+}
+.header-dropdown_pc li a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
 .header-dropdown {
     display: none;
     background-color: #fff;
@@ -281,6 +316,61 @@ border: solid 2px #ffba95;
     display: block;
     text-decoration: none;
 }
+
+.navbar-toggle_pc {
+    position: relative;
+    float: right;
+    width: 42px;
+    height: 42px;
+    margin: -64% 10px 5px 0;
+    padding: 9px 10px;
+    outline: 0 !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: #ff7621;
+    border-radius: 4px;
+    border: none;
+    background: #fff5d7;
+}
+.navbar-toggle_pc .icon-bar {
+    background-color: #ff7621;
+}
+.navbar-toggle_pc .icon-bar+ .icon-bar {
+    margin-top: 4px;
+}
+.navbar-toggle_pc .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle_pc .icon-bar,.active .navbar-toggle_pc .icon-bar,.navbar-toggle_pc {
+    transition: 0.3s;
+}
+.navbar-toggle_pc:active,.navbar-toggle_pc:hover,.active .navbar-toggle_pc {
+    background-color: #fff5d7;
+}
+.active .navbar-toggle_pc .icon-bar.bar1 {
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.active .navbar-toggle_pc .icon-bar.bar2 {
+    opacity: 0;
+}
+.active .navbar-toggle_pc .icon-bar.bar3 {
+    -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.active .navbar-toggle_pc .icon-bar+ .icon-bar {
+    margin-top: -1.5px;
+}
+
 .navbar-toggle {
     position: relative;
     float: right;
