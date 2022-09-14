@@ -2110,8 +2110,12 @@ button.campaign:hover {
 /* スマホ用 */
 @media screen and (max-width: 895px) { 
 
-    .header-dropdown {
-        width: 100vw;
+    .header_sp, .header_sp>.header_top {
+        width: 100%;
+    }
+
+    .container_sp > .wrapper {
+        width: 100%;
     }
     #wrap {
         padding: 0;
