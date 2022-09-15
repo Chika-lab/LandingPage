@@ -851,20 +851,34 @@ dt {
     padding-bottom: 3%;
 }
 #tell1 {
-    margin: 30px 0;
+    margin: 10px 0 35px 0;
     font-size: 60px;
     line-height: 33px;
     color: #eb5505;
     font-weight: bold;
     vertical-align: middle;
 }
+#tell1 li {
+    list-style-type: '※';
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+}
 #tell2 {
-    margin: 30px 0;
+    margin: 10px 0 0px 0;
     font-size: 60px;
     line-height: 33px;
     color: #eb5505;
     font-weight: bold;
     vertical-align: middle;
+}
+#tell-note {
+    margin: 0;
+    font-size: 14px;
+    display: inline-block;
+}
+#tell-note li {
+    list-style-type: '※';
 }
 #time {
     font-size: 24px;
@@ -931,7 +945,6 @@ color: #eb5505;
     font-size: 24px;
     font-weight: normal;
     display: block;
-    margin-right: 2%;
 }
 .black {
     color: #333333;
@@ -1058,7 +1071,6 @@ color: #eb5505;
     font-size: 1.8vw;
     font-weight: normal;
     display: block;
-    margin-right: 2%;
 }
 .ver9 {
     font-size: 2.4vw;
@@ -1724,7 +1736,6 @@ color: #eb5505;
     font-size: 4vw;
     font-weight: normal;
     display: block;
-    margin-right: 2%;
     padding-bottom: 3%;
 }
 .black {
@@ -2043,31 +2054,38 @@ button.campaign:hover {
         content: url(condition_3.png);
     }
 
-    #tell1 {
+    #tell1 > div {
         display: flex;
         justify-content: center;
     }
-    #tell1 > div {
-        padding: 10px 15px;
+    #tell1 p {
+        font-size: 18px;
+        color: black;
+        font-weight: normal;
+        margin: 5px 10px;
     }
     #tell1 a {
-        font-size: 40px;
-        display: flex;
+        font-size: 30px;
         align-items: center;
-        margin-left: 10px;
+        margin: 0;
     }
-    #tell2 {
+    #tell2 > div {
         display: flex;
         justify-content: center;
     }
-    #tell2 > div {
-        padding: 10px 15px;
+    #tell2 p {
+        font-size: 18px;
+        color: black;
+        font-weight: normal;
+        margin: 5px 10px;
     }
     #tell2 a {
-        font-size: 40px;
-        display: flex;
-        align-items: center;
-        margin-left: 10px;
+        font-size: 30px;
+        margin: 0;
+    }
+    #tell-note {
+        text-align: left;
+        margin: 0px 10px 10px 30px;
     }
 
     .topic-theme {
@@ -2137,31 +2155,38 @@ button.campaign:hover {
         font-size: 18px;
         font-weight: bold;
     }
-    #tell1 {
-        display: flex;
+    #tell1 > div {
+        display: block;
         justify-content: center;
     }
-    #tell1 > div {
-        padding: 2px 10px;
+    #tell1 p {
+        font-size: 18px;
+        color: black;
+        font-weight: normal;
+        margin: 5px 10px;
     }
     #tell1 a {
         font-size: 30px;
-        display: flex;
         align-items: center;
-        margin-left: 10px;
-    }
-    #tell2 {
-        display: flex;
-        justify-content: center;
+        margin: 0 auto;
     }
     #tell2 > div {
-        padding: 2px 10px;
+        display: block;
+        justify-content: center;
+    }
+    #tell2 p {
+        font-size: 18px;
+        color: black;
+        font-weight: normal;
+        margin: 5px 10px;
     }
     #tell2 a {
         font-size: 30px;
-        display: flex;
-        align-items: center;
-        margin-left: 10px;
+        margin: 0 auto;
+    }
+    #tell-note {
+        text-align: left;
+        margin: 10px 10px 10px 30px;
     }
     /* 注意点 */
     #notes {
